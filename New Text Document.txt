@@ -1,0 +1,544 @@
+
+🔄 Checking for news... (12:21:02)
+تحت رعايه حمدان بن محمد بن زايد النسخه الثالثه من كاس اتحاد الامارات للمصارعه تنطلق غدا في ابوظبي
+CATEGORY: رياضة
+CONFIDENCE: 0.5400307561392274
+⚠️ LOW CONFIDENCE NEWS: تحت رعاية حمدان بن محمد بن زايد.. النسخة الثالثة من كأس اتحاد الإمارات للمصارعة تنطلق غدا في أبوظبي
+
+🟢 NEW ARTICLE
+TITLE: تحت رعاية حمدان بن محمد بن زايد.. النسخة الثالثة من كأس اتحاد الإمارات للمصارعة تنطلق غدا في أبوظبي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_1.png
+باريس تستضيف غدا اولي المحطات الاوروبيه لكاس رييس الدوله للخيول العربيه
+CATEGORY: رياضة
+CONFIDENCE: 0.420542805982293
+⚠️ LOW CONFIDENCE NEWS: باريس تستضيف غدا أولى المحطات الأوروبية لكأس رئيس الدولة للخيول العربية
+
+🟢 NEW ARTICLE
+TITLE: باريس تستضيف غدا أولى المحطات الأوروبية لكأس رئيس الدولة للخيول العربية
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_2.png
+الداخليه البحرينيه القبض علي التنظيم الرييسي المرتبط بالحرس الثوري الايراني
+CATEGORY: سياسة
+CONFIDENCE: 0.44887339043092966
+⚠️ LOW CONFIDENCE NEWS: الداخلية البحرينية: القبض على التنظيم الرئيسي المرتبط بالحرس الثوري الإيراني
+
+🟢 NEW ARTICLE
+TITLE: الداخلية البحرينية: القبض على التنظيم الرئيسي المرتبط بالحرس الثوري الإيراني
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_3.png
+مصر تدين الاعتداءات الايرانيه علي الامارات وتوكد تضامنها الكامل معها
+CATEGORY: سياسة
+CONFIDENCE: 0.6197350927720859
+
+🟢 NEW ARTICLE
+TITLE: مصر تدين الاعتداءات الإيرانية على الإمارات وتؤكد تضامنها الكامل معها
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_4.png
+قطر تدين بشده الاعتداءات الايرانيه علي الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.705854327230544
+
+🟢 NEW ARTICLE
+TITLE: قطر تدين بشدة الاعتداءات الإيرانية على الإمارات
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_5.png
+✅ Added 5 articles.
+
+🔄 Checking for news... (12:22:27)
+سباق زايد الخيري ينطلق لاول مره في القاره الاوروبيه بالمجر 17 مايو
+CATEGORY: رياضة
+CONFIDENCE: 0.4992928639749174
+⚠️ LOW CONFIDENCE NEWS: سباق زايد الخيري ينطلق لأول مرة في القارة الأوروبية بالمجر 17 مايو
+
+🟢 NEW ARTICLE
+TITLE: سباق زايد الخيري ينطلق لأول مرة في القارة الأوروبية بالمجر 17 مايو
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_6.png
+البحرين تدين بشده الاعتداءات الايرانيه الاثمه علي الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.7319233861622173
+
+🟢 NEW ARTICLE
+TITLE: البحرين تدين بشدة الاعتداءات الإيرانية الآثمة على الإمارات
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_7.png
+ولي عهد راس الخيمه يحضر افراح الغرير وبن حريز
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: ولي عهد رأس الخيمة يحضر أفراح الغرير وبن حريز
+
+🟢 NEW ARTICLE
+TITLE: ولي عهد رأس الخيمة يحضر أفراح الغرير وبن حريز
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_8.png
+ذياب بن محمد بن زايد يقدم واجب العزاء في وفاه ناديه بركات
+CATEGORY: فن
+CONFIDENCE: 0.4787571596287476
+⚠️ LOW CONFIDENCE NEWS: ذياب بن محمد بن زايد يقدم واجب العزاء في وفاة نادية بركات
+
+🟢 NEW ARTICLE
+TITLE: ذياب بن محمد بن زايد يقدم واجب العزاء في وفاة نادية بركات
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_9.png
+احمد بن سعيد يحضر افراح الغرير وبن حريز
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: أحمد بن سعيد يحضر أفراح الغرير وبن حريز
+
+🟢 NEW ARTICLE
+TITLE: أحمد بن سعيد يحضر أفراح الغرير وبن حريز
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_10.png
+وزاره الخارجيه السعوديه تعرب عن ادانه المملكه واستنكارها باشد العبارات للاستهداف الايراني لمنشات مدنيه واقتصاديه في دوله الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.4153934521234311
+⚠️ LOW CONFIDENCE NEWS: وزارة الخارجية السعودية تعرب عن إدانة المملكة واستنكارها بأشد العبارات للاستهداف الإيراني لمنشآت مدنية واقتصادية في دولة الإمارات
+
+🟢 NEW ARTICLE
+TITLE: وزارة الخارجية السعودية تعرب عن إدانة المملكة واستنكارها بأشد العبارات للاستهداف الإيراني لمنشآت مدنية واقتصادية في دولة الإمارات
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_11.png
+السعوديه تدين وتستنكر المخطط الارهابي الذي استهدف المساس بالوحده الوطنيه والاستقرار في الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.32699791952545415
+
+🟢 NEW ARTICLE
+TITLE: السعودية تدين وتستنكر المخطط الإرهابي الذي استهدف المساس بالوحدة الوطنية والاستقرار في الإمارات
+CATEGORY DEBUG: رياضة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_12.png
+الطاقه السعوديه استعاده طاقه الضخ الكامله عبر خط انابيب شرق  غرب وانتاج حقل منيفه
+CATEGORY: اجتماعية
+CONFIDENCE: 0.32852209474671085
+⚠️ LOW CONFIDENCE NEWS: «الطاقة السعودية»: استعادة طاقة الضخ الكاملة عبر خط أنابيب شرق - غرب وإنتاج حقل منيفة
+
+🟢 NEW ARTICLE
+TITLE: «الطاقة السعودية»: استعادة طاقة الضخ الكاملة عبر خط أنابيب شرق - غرب وإنتاج حقل منيفة
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_13.png
+ادان خلاله الاعتداءات الايرانيه الارهابيه ضد الامارات رييس الدوله يتلقي اتصالا هاتفيا من الرييس المصري
+CATEGORY: سياسة
+CONFIDENCE: 0.6170439926992319
+
+🟢 NEW ARTICLE
+TITLE: أدان خلاله الاعتداءات الإيرانية الإرهابية ضد الإمارات.. رئيس الدولة يتلقى اتصالاً هاتفياً من الرئيس المصري
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_14.png
+مصر تفرض رسوما علي تصدير الاسمده النيتروجينيه لمده 3 شهور
+CATEGORY: اجتماعية
+CONFIDENCE: 0.33582028496457095
+⚠️ LOW CONFIDENCE NEWS: مصر تفرض رسوما على تصدير الأسمدة النيتروجينية لمدة 3 شهور
+
+🟢 NEW ARTICLE
+TITLE: مصر تفرض رسوما على تصدير الأسمدة النيتروجينية لمدة 3 شهور
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_15.png
+الكويت تدين الاعتداءات الايرانيه الاثمه التي استهدفت الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.6577671097623863
+
+🟢 NEW ARTICLE
+TITLE: الكويت تدين الاعتداءات الإيرانية الآثمة التي استهدفت الإمارات
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_16.png
+بنغازي مقرا دايما للمجلس البرلماني الاسيوي الافريقي برياسه عقيله صالح
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+
+🟢 NEW ARTICLE
+TITLE: بنغازي مقرًا دائمًا للمجلس البرلماني الآسيوي الأفريقي برئاسة عقيلة صالح
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_17.png
+رييس البرلمان العربي يدين الاعتداءات الايرانيه الارهابيه ضد دوله الامارات
+CATEGORY: سياسة
+CONFIDENCE: 0.6296695470703174
+
+🟢 NEW ARTICLE
+TITLE: رئيس البرلمان العربي يدين الاعتداءات الإيرانية الإرهابية ضد دولة الإمارات
+CATEGORY DEBUG: سياسة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_18.png
+حمله جسر حميد الجوي تقدم اكثر من 600 طن من المساعدات الانسانيه للاشقاء الفلسطينيين في غزه
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: حملة «جسر حميد الجوي» تقدم أكثر من 600 طن من المساعدات الإنسانية للأشقاء الفلسطينيين في غزة
+
+🟢 NEW ARTICLE
+TITLE: حملة «جسر حميد الجوي» تقدم أكثر من 600 طن من المساعدات الإنسانية للأشقاء الفلسطينيين في غزة
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_19.png
+الشرطه الباكستانيه 12 قتيلا في تفجير نقطه تفتيش شمال غرب البلاد
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: الشرطة الباكستانية: 12 قتيلا في تفجير نقطة تفتيش شمال غرب البلاد
+
+🟢 NEW ARTICLE
+TITLE: الشرطة الباكستانية: 12 قتيلا في تفجير نقطة تفتيش شمال غرب البلاد
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_20.png
+شركات طيران في كوريا الجنوبيه تقلص رحلاتها مع ارتفاع اسعار النفط
+CATEGORY: فن
+CONFIDENCE: 0.32229719506723004
+⚠️ LOW CONFIDENCE NEWS: شركات طيران في كوريا الجنوبية تقلص رحلاتها مع ارتفاع أسعار النفط
+
+🟢 NEW ARTICLE
+TITLE: شركات طيران في كوريا الجنوبية تقلص رحلاتها مع ارتفاع أسعار النفط
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_21.png
+مقتل 69 شخصا في هجوم مسلح شمال شرق الكونغو الديمقراطيه
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: مقتل 69 شخصا في هجوم مسلح شمال شرق الكونغو الديمقراطية
+
+🟢 NEW ARTICLE
+TITLE: مقتل 69 شخصا في هجوم مسلح شمال شرق الكونغو الديمقراطية
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_22.png
+نافس بوابه المراه الاماراتيه نحو النجاح في عالم القطاع الخاص
+CATEGORY: اجتماعية
+CONFIDENCE: 0.38883917248200245
+⚠️ LOW CONFIDENCE NEWS: «نافس».. بوابة المرأة الإماراتية نحو النجاح في عالم القطاع الخاص
+
+🟢 NEW ARTICLE
+TITLE: «نافس».. بوابة المرأة الإماراتية نحو النجاح في عالم القطاع الخاص
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_23.png
+ابوظبي ترفع الاعتماد علي مواد البناء محليه الصنع في مشاريع الاسكان الي 80
+CATEGORY: اجتماعية
+CONFIDENCE: 0.3416365302148815
+⚠️ LOW CONFIDENCE NEWS: أبوظبي ترفع الاعتماد على مواد البناء محلية الصنع في مشاريع الإسكان إلى 80%
+
+🟢 NEW ARTICLE
+TITLE: أبوظبي ترفع الاعتماد على مواد البناء محلية الصنع في مشاريع الإسكان إلى 80%
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_24.png
+دايره التسجيل العقاري في الشارقه تنظم ملتقاها السنوي
+CATEGORY: اجتماعية
+CONFIDENCE: 0.38374805983792915
+⚠️ LOW CONFIDENCE NEWS: دائرة التسجيل العقاري في الشارقة تنظم ملتقاها السنوي
+
+🟢 NEW ARTICLE
+TITLE: دائرة التسجيل العقاري في الشارقة تنظم ملتقاها السنوي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_25.png
+اورليكس منصه توزيع مستحضرات التجميل تطلق عملياتها الاقليميه بالشارقه
+CATEGORY: اجتماعية
+CONFIDENCE: 0.4743510166231576
+⚠️ LOW CONFIDENCE NEWS: «أورليكس» منصة توزيع مستحضرات التجميل تطلق عملياتها الإقليمية بالشارقة
+
+🟢 NEW ARTICLE
+TITLE: «أورليكس» منصة توزيع مستحضرات التجميل تطلق عملياتها الإقليمية بالشارقة
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_26.png
+مجلس سيدات اعمال ابوظبي يشارك بمعرض بصمه الامارات  نبني معا
+CATEGORY: اجتماعية
+CONFIDENCE: 0.4629980130010847
+⚠️ LOW CONFIDENCE NEWS: «مجلس سيدات أعمال أبوظبي» يشارك بمعرض «بصمة الإمارات – نبني معاً»
+
+🟢 NEW ARTICLE
+TITLE: «مجلس سيدات أعمال أبوظبي» يشارك بمعرض «بصمة الإمارات – نبني معاً»
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_27.png
+ادنيك وجامعه خليفه تتعاونان في دعم الابتكاروالتعليم وتنظيم الفعاليات الوطنيه
+CATEGORY: اجتماعية
+CONFIDENCE: 0.45933752503922193
+⚠️ LOW CONFIDENCE NEWS: أدنيك وجامعة خليفة تتعاونان في دعم الابتكاروالتعليم وتنظيم الفعاليات الوطنية
+
+🟢 NEW ARTICLE
+TITLE: أدنيك وجامعة خليفة تتعاونان في دعم الابتكاروالتعليم وتنظيم الفعاليات الوطنية
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_28.png
+مانشستر سيتي يفوز علي برينتفورد في الدوري الانجليزي
+CATEGORY: رياضة
+CONFIDENCE: 0.5229295089374745
+
+🟢 NEW ARTICLE
+TITLE: مانشستر سيتي يفوز على برينتفورد في الدوري الإنجليزي
+CATEGORY DEBUG: رياضة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_29.png
+قرعه كاس اسيا 2027 تضع منتخبنا الوطني في المجموعه الخامسه مع كوريا الجنوبيه وفيتنام ولبنان او اليمن
+CATEGORY: رياضة
+CONFIDENCE: 0.48424085064647093
+⚠️ LOW CONFIDENCE NEWS: قرعة كأس آسيا 2027 تضع منتخبنا الوطني في المجموعة الخامسة مع كوريا الجنوبية وفيتنام و"لبنان أو اليمن"
+
+🟢 NEW ARTICLE
+TITLE: قرعة كأس آسيا 2027 تضع منتخبنا الوطني في المجموعة الخامسة مع كوريا الجنوبية وفيتنام و"لبنان أو اليمن"
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_30.png
+سياحه عجمان ترسيخ مكانه الاماره كوجهه رايده للسياحه الترفيهيه والرياضيه
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: "سياحة عجمان" ترسيخ مكانة الإمارة كوجهة رائدة للسياحة الترفيهية والرياضية
+
+🟢 NEW ARTICLE
+TITLE: "سياحة عجمان" ترسيخ مكانة الإمارة كوجهة رائدة للسياحة الترفيهية والرياضية
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_31.png
+الاوكراني فلاديسلاف رودنيف يتوج بطلا للنزال الرييسي في النسخه الـ71 من محاربي الامارات
+CATEGORY: رياضة
+CONFIDENCE: 0.6376280892833278
+
+🟢 NEW ARTICLE
+TITLE: الأوكراني فلاديسلاف رودنيف يتوج بطلاً للنزال الرئيسي في النسخة الـ71 من "محاربي الإمارات"
+CATEGORY DEBUG: رياضة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_32.png
+انطلاقه قويه لدوري التزلج المدولب بمشاركه 250 رياضيا ورياضيه
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+
+🟢 NEW ARTICLE
+TITLE: انطلاقة قوية لدوري "التزلج المدولب" بمشاركة 250 رياضياً ورياضية
+CATEGORY DEBUG: رياضة
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_33.png
+بريتني سبيرز تعترف بتهمه مخففه لتسويه قضيه القياده تحت تاثير المخدرات والكحول
+CATEGORY: رياضة
+CONFIDENCE: 0.31500010101664944
+⚠️ LOW CONFIDENCE NEWS: بريتني سبيرز تعترف بتهمة مخففة لتسوية قضية القيادة تحت تأثير المخدرات والكحول
+
+🟢 NEW ARTICLE
+TITLE: بريتني سبيرز تعترف بتهمة مخففة لتسوية قضية القيادة تحت تأثير المخدرات والكحول
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_34.png
+وفاه المطرب المصري هاني شاكر عن 74 عاما بعد معاناه مع المرض
+CATEGORY: فن
+CONFIDENCE: 0.5978688148730409
+
+🟢 NEW ARTICLE
+TITLE: وفاة المطرب المصري هاني شاكر عن 74 عاما بعد معاناة مع المرض
+CATEGORY DEBUG: فن
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_35.png
+رحيل امير الغناء العربي
+CATEGORY: فن
+CONFIDENCE: 0.3173727017137302
+⚠️ LOW CONFIDENCE NEWS: رحيل أمير الغناء العربي
+
+🟢 NEW ARTICLE
+TITLE: رحيل أمير الغناء العربي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_36.png
+الموارد البشريه تحديد عطله عيد الفطر المبارك للقطاعين الحكومي والخاص
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: «الموارد البشرية»: تحديد عطلة عيد الفطر المبارك للقطاعين الحكومي والخاص
+
+🟢 NEW ARTICLE
+TITLE: «الموارد البشرية»: تحديد عطلة عيد الفطر المبارك للقطاعين الحكومي والخاص
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_37.png
+شرطه دبي تنظم محاضرات وفعاليات مجتمعيه ورياضيه في الخوانيج
+CATEGORY: اجتماعية
+CONFIDENCE: 0.39238274471205686
+⚠️ LOW CONFIDENCE NEWS: شرطة دبي تنظم محاضرات وفعاليات مجتمعية ورياضية في الخوانيج
+
+🟢 NEW ARTICLE
+TITLE: شرطة دبي تنظم محاضرات وفعاليات مجتمعية ورياضية في الخوانيج
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_38.png
+شرطه دبي تنظم الاحد ملتقي الوحيده المجتمعي
+CATEGORY: اجتماعية
+CONFIDENCE: 0.39238274471205686
+⚠️ LOW CONFIDENCE NEWS: شرطة دبي تنظم الأحد ملتقى الوحيدة المجتمعي
+
+🟢 NEW ARTICLE
+TITLE: شرطة دبي تنظم الأحد ملتقى الوحيدة المجتمعي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_39.png
+الامارات تشارك البحرين احتفالاتها باليوم الوطني
+CATEGORY: سياسة
+CONFIDENCE: 0.3954238487142253
+⚠️ LOW CONFIDENCE NEWS: الإمارات تشارك البحرين احتفالاتها باليوم الوطني
+
+🟢 NEW ARTICLE
+TITLE: الإمارات تشارك البحرين احتفالاتها باليوم الوطني
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_40.png
+حمدان بن زايد يستقبل وفد دايره الثقافه والسياحه ويطلع علي مشاريع منطقه الظفره حتي عام 2030
+CATEGORY: اجتماعية
+CONFIDENCE: 0.32887239816780767
+⚠️ LOW CONFIDENCE NEWS: حمدان بن زايد يستقبل وفد دائرة الثقافة والسياحة ويطلع على مشاريع منطقة الظفرة حتى عام 2030
+
+🟢 NEW ARTICLE
+TITLE: حمدان بن زايد يستقبل وفد دائرة الثقافة والسياحة ويطلع على مشاريع منطقة الظفرة حتى عام 2030
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_41.png
+ACEA تطالب بسرعه ابرام اتفاق تجاري مع اميركا يحمي صناعه السيارات الاوروبيه
+CATEGORY: فن
+CONFIDENCE: 0.28204080218509225
+⚠️ LOW CONFIDENCE NEWS: «ACEA» تطالب بسرعة إبرام اتفاق تجاري مع أميركا يحمي صناعة السيارات الأوروبية
+
+🟢 NEW ARTICLE
+TITLE: «ACEA» تطالب بسرعة إبرام اتفاق تجاري مع أميركا يحمي صناعة السيارات الأوروبية
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_42.png
+اوبن ايهاي تضيف خاصيه ذكاء اصطناعي صوتي جديده لواجهه البرمجه الخاصه بها
+CATEGORY: اجتماعية
+CONFIDENCE: 0.3615949863134002
+⚠️ LOW CONFIDENCE NEWS: "أوبن أيه.آي" تضيف خاصية ذكاء اصطناعي صوتي جديدة لواجهة البرمجة الخاصة بها
+
+🟢 NEW ARTICLE
+TITLE: "أوبن أيه.آي" تضيف خاصية ذكاء اصطناعي صوتي جديدة لواجهة البرمجة الخاصة بها
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_43.png
+الصحه العالميه تحذر من المبالغه في تقدير مخاطر فيروس هانتا
+CATEGORY: اجتماعية
+CONFIDENCE: 0.35834276926761616
+⚠️ LOW CONFIDENCE NEWS: "الصحة العالمية" تحذر من المبالغة في تقدير مخاطر فيروس "هانتا"
+
+🟢 NEW ARTICLE
+TITLE: "الصحة العالمية" تحذر من المبالغة في تقدير مخاطر فيروس "هانتا"
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_44.png
+الوطني للارصاد طقس مستقر بوجه عام يتخلله نشاط للرياح حتي 14 مايو
+CATEGORY: سياسة
+CONFIDENCE: 0.30201343478395515
+⚠️ LOW CONFIDENCE NEWS: "الوطني للأرصاد": طقس مستقر بوجه عام يتخلله نشاط للرياح حتى 14 مايو
+
+🟢 NEW ARTICLE
+TITLE: "الوطني للأرصاد": طقس مستقر بوجه عام يتخلله نشاط للرياح حتى 14 مايو
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_45.png
+الامارات للخدمات الصحيه  الكوادر الوطنيه ركيزه النظام الصحي
+CATEGORY: اجتماعية
+CONFIDENCE: 0.3597149138578728
+⚠️ LOW CONFIDENCE NEWS: الإمارات للخدمات الصحية : الكوادر الوطنية ركيزة النظام الصحي
+
+🟢 NEW ARTICLE
+TITLE: الإمارات للخدمات الصحية : الكوادر الوطنية ركيزة النظام الصحي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_46.png
+موتمر طبي بدبي يكشف عن ادويه جديده لمكافحه الالتهابات وجهازين يعملان بالذكاء الاصطناعي
+CATEGORY: اجتماعية
+CONFIDENCE: 0.3717915534333673
+⚠️ LOW CONFIDENCE NEWS: مؤتمر طبي بدبي يكشف عن أدوية جديدة لمكافحة الإلتهابات وجهازين يعملان بالذكاء الاصطناعي
+
+🟢 NEW ARTICLE
+TITLE: مؤتمر طبي بدبي يكشف عن أدوية جديدة لمكافحة الإلتهابات وجهازين يعملان بالذكاء الاصطناعي
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_47.png
+وشوشه دعوه عالميه للانصات الي ذاكره مجتمع الامارات المبدع
+CATEGORY: رياضة
+CONFIDENCE: 0.32604936272768126
+⚠️ LOW CONFIDENCE NEWS: «وشوشة» دعوة عالمية للإنصات إلى «ذاكرة» مجتمع الإمارات المبدع
+
+🟢 NEW ARTICLE
+TITLE: «وشوشة» دعوة عالمية للإنصات إلى «ذاكرة» مجتمع الإمارات المبدع
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_48.png
+طقس الغد صحو مع رياح نشطه ودرجات حراره تصل الي 40 درجه
+CATEGORY: فن
+CONFIDENCE: 0.3336873600114183
+⚠️ LOW CONFIDENCE NEWS: طقس الغد صحو مع رياح نشطة ودرجات حرارة تصل إلى 40 درجة
+
+🟢 NEW ARTICLE
+TITLE: طقس الغد صحو مع رياح نشطة ودرجات حرارة تصل إلى 40 درجة
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_49.png
+✅ Added 44 articles.
+
+🔄 Checking for news... (12:25:05)
+😴 No new updates.
+
+🔄 Checking for news... (12:26:05)
+😴 No new updates.
+
+🔄 Checking for news... (12:27:06)
+10618 عضويه في غرفه عجمان خلال الربع الاول من العام الجاري
+CATEGORY: اجتماعية
+CONFIDENCE: 0.4481294219166431
+⚠️ LOW CONFIDENCE NEWS: 10618 عضوية في غرفة عجمان خلال الربع الأول من العام الجاري
+
+🟢 NEW ARTICLE
+TITLE: 10618 عضوية في غرفة عجمان خلال الربع الأول من العام الجاري
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_50.png
+✅ Added 1 articles.
+
+🔄 Checking for news... (12:28:14)
+😴 No new updates.
+
+🔄 Checking for news... (12:29:15)
+😴 No new updates.
+
+🔄 Checking for news... (12:30:15)
+الاتحاد الخليجي للشطرنج يعتمد تنظيم البطوله الفرديه للناشيين في عجمان
+CATEGORY: رياضة
+CONFIDENCE: 0.28851491510484084
+⚠️ LOW CONFIDENCE NEWS: الاتحاد الخليجي للشطرنج يعتمد تنظيم البطولة الفردية للناشئين في عجمان
+
+🟢 NEW ARTICLE
+TITLE: الاتحاد الخليجي للشطرنج يعتمد تنظيم البطولة الفردية للناشئين في عجمان
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_51.png
+✅ Added 1 articles.
+
+🔄 Checking for news... (12:31:18)
+😴 No new updates.
+
+🔄 Checking for news... (12:32:18)
+😴 No new updates.
+
+🔄 Checking for news... (12:33:20)
+😴 No new updates.
+
+🔄 Checking for news... (12:35:39)
+غرفه تجاره دبي تسجل تجديد عضويه 30 الف شركه خلال ابريل
+CATEGORY: اجتماعية
+CONFIDENCE: 0.4272496861193328
+⚠️ LOW CONFIDENCE NEWS: غرفة تجارة دبي تسجل تجديد عضوية 30 ألف شركة خلال أبريل
+
+🟢 NEW ARTICLE
+TITLE: غرفة تجارة دبي تسجل تجديد عضوية 30 ألف شركة خلال أبريل
+CATEGORY DEBUG: عام
+AVAILABLE KEYS: dict_keys(['رياضة', 'سياسة', 'فن', 'اجتماعية', 'عام'])
+🖼️ IMAGE SAVED: generated\news_52.png
+✅ Added 1 articles.

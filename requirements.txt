@@ -1,0 +1,42 @@
+# Core async HTTP
+aiohttp==3.12.15
+aiofiles==24.1.0
+
+# Sync HTTP (Telegram, Facebook webhook, image download)
+requests==2.32.5
+
+# Scraping
+beautifulsoup4==4.14.3
+lxml
+
+# Database
+psycopg2-binary==2.9.12
+
+# Supabase storage
+supabase==2.30.0
+
+# ML
+scikit-learn==1.6.1
+joblib==1.4.2
+numpy==2.0.2
+pandas==2.3.3
+
+# Text / image
+Pillow==11.3.0
+arabic-reshaper==3.0.0
+python-bidi==0.6.9
+
+# Retry
+tenacity==9.0.0
+
+# Config
+python-dotenv==1.2.1
+
+# API server (optional review UI)
+fastapi==0.128.8
+uvicorn==0.39.0
+Flask==3.1.3
+
+# Utilities
+tqdm==4.67.3
+unicodedata2

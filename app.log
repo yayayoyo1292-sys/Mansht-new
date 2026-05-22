@@ -1,0 +1,780 @@
+2026-05-21 12:59:54.796  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-21 13:00:00.146  WARNING   services.facebook_publisher — ⚠️ MAKE_WEBHOOK_URL not set — Facebook publishing disabled
+2026-05-21 13:00:00.163  INFO      mansht — 🚀 Publishing worker started
+2026-05-21 13:00:00.163  INFO      mansht — 🔄 Recalculation worker started
+2026-05-21 13:00:00.164  INFO      mansht — 🧵 Background workers started
+2026-05-21 13:00:00.167  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-21 13:00:00.168  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.169  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.169  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.170  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.171  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.171  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.171  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.172  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.172  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.172  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.172  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.172  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.174  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-21 13:00:00.578  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:00.929  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:01.195  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:01.464  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:01.735  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:02.001  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:02.276  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:02.546  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:02.812  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:03.083  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:03.346  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:03.620  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:00:03.884  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:01:34.774  INFO      mansht — 📥 [الإمارات] New: صقر غباش يلتقي رئيس كتلة «الوطنيين من أجل أوروبا» في البرلمان الأوروبي | scraped_at=10:01:33.739
+2026-05-21 13:01:35.880  INFO      mansht — 🟢 [الإمارات] Saved | id=1331 | cat=سياسة | tpl=سياسة | conf=0.83 | صقر غباش يلتقي رئيس كتلة «الوطنيين من أجل أوروبا» في البرلما
+2026-05-21 13:01:35.933  INFO      mansht — 🎨 Generating image | category=سياسة | id=1331
+2026-05-21 13:01:37.720  INFO      DB.cloud_storage — 🖼️  Uploading news_1331.jpg (0.24 MB)
+2026-05-21 13:01:38.752  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1331.jpg "HTTP/2 200 OK"
+2026-05-21 13:01:39.754  ERROR     mansht — ❌ process_article error: column "label" of relation "confirmed_training" does not exist
+LINE 2: ...           INSERT INTO confirmed_training (title, label, con...
+                                                             ^
+
+2026-05-21 13:01:43.675  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | صقر غباش يلتقي رئيس كتلة «الوطنيين من أجل أوروبا» في البرلما
+2026-05-21 13:01:43.676  INFO      mansht — ✅ Telegram sent (worker) | id=1043 | صقر غباش يلتقي رئيس كتلة «الوطنيين من أجل أوروبا» في البرلما
+2026-05-21 13:01:44.694  INFO      services.social_router — 📘 Facebook sent | age=5s | صقر غباش يلتقي رئيس كتلة «الوطنيين من أجل أوروبا» في البرلما
+2026-05-21 13:01:44.944  INFO      mansht — ✅ Published | id=1043 tg=sent ig=skipped tw=skipped fb=sent
+2026-05-21 13:02:46.047  INFO      mansht — 🛑 Stopped manually
+2026-05-21 13:06:13.626  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-21 13:06:17.489  INFO      mansht — 🚀 Publishing worker started
+2026-05-21 13:06:17.490  INFO      mansht — 🔄 Recalculation worker started
+2026-05-21 13:06:17.490  INFO      mansht — 🧵 Background workers started
+2026-05-21 13:06:17.495  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-21 13:06:17.496  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.496  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.497  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.497  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.497  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.499  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.499  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.500  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.500  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.501  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.502  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.502  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:17.503  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-21 13:06:18.002  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:18.328  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:18.609  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:18.880  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:19.164  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:19.432  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:19.696  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:19.979  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:20.280  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:20.548  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:20.814  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:21.079  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:06:21.343  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:07:21.156  INFO      mansht — 📥 [رياضة] New: فرسان الإمارات يشاركون في سباقات «كاستلساغرا» الدولية للقدرة بفرنسا | scraped_at=10:07:20.093
+2026-05-21 13:07:22.221  INFO      mansht — 🟢 [رياضة] Saved | id=1332 | cat=رياضة | tpl=رياضة | conf=1.00 | فرسان الإمارات يشاركون في سباقات «كاستلساغرا» الدولية للقدرة
+2026-05-21 13:07:22.235  INFO      mansht — 🎨 Generating image | category=رياضة | id=1332
+2026-05-21 13:07:22.718  INFO      DB.cloud_storage — 🖼️  Uploading news_1332.jpg (0.19 MB)
+2026-05-21 13:07:23.548  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1332.jpg "HTTP/2 200 OK"
+2026-05-21 13:07:24.506  INFO      mansht — ⚡ Processed in 2765ms | id=1332 | priority=9
+2026-05-21 13:07:24.506  INFO      mansht — 🚨 HIGH PRIORITY (score=9) — instant dispatch
+2026-05-21 13:07:25.227  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1044 | 'فرسان الإمارات يشاركون في سباقات «كاستلساغرا» الدولية للقدرة بفرنسا'
+2026-05-21 13:07:26.919  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | فرسان الإمارات يشاركون في سباقات «كاستلساغرا» الدولية للقدرة
+2026-05-21 13:07:26.920  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1044
+2026-05-21 13:07:27.395  WARNING   services.social_dispatcher — Instagram publish skipped — no webhook URL
+2026-05-21 13:07:27.870  WARNING   services.social_dispatcher — Twitter publish skipped — no webhook URL
+2026-05-21 13:07:28.343  WARNING   services.social_dispatcher — Facebook publish skipped — no webhook URL
+2026-05-21 13:07:28.581  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1044 | tg=sent ig=failed tw=failed fb=failed
+2026-05-21 13:40:53.147  INFO      mansht — 🛑 Stopped manually
+2026-05-21 13:47:10.438  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-21 13:47:20.592  INFO      mansht — 🚀 Publishing worker started
+2026-05-21 13:47:20.593  INFO      mansht — 🔄 Recalculation worker started
+2026-05-21 13:47:20.594  INFO      mansht — 🧵 Background workers started
+2026-05-21 13:47:20.598  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-21 13:47:20.599  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.600  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.601  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.602  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.602  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.603  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.603  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.604  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.604  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.604  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.605  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.605  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:20.606  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-21 13:47:21.429  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:21.717  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:21.974  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:22.236  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:22.492  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:22.752  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:23.018  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:23.274  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:23.531  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:23.792  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:24.051  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:24.310  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:47:24.567  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 13:52:54.562  INFO      mansht — 📥 [الإمارات] New: رئيس الدولة ونائباه يهنئون رئيس الجبل الأسود بذكرى استقلال بلاده | scraped_at=10:52:53.718
+2026-05-21 13:52:55.352  INFO      mansht — 🟢 [الإمارات] Saved | id=1333 | cat=سياسة | tpl=سياسة | conf=0.95 | رئيس الدولة ونائباه يهنئون رئيس الجبل الأسود بذكرى استقلال ب
+2026-05-21 13:52:55.377  INFO      mansht — 🎨 Generating image | category=سياسة | id=1333
+2026-05-21 13:52:56.303  INFO      DB.cloud_storage — 🖼️  Uploading news_1333.jpg (0.18 MB)
+2026-05-21 13:52:57.293  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1333.jpg "HTTP/2 200 OK"
+2026-05-21 13:52:58.290  ERROR     mansht — ❌ process_article error: column "label" of relation "confirmed_training" does not exist
+LINE 2: ...           INSERT INTO confirmed_training (title, label, con...
+                                                             ^
+
+2026-05-21 13:53:00.764  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | رئيس الدولة ونائباه يهنئون رئيس الجبل الأسود بذكرى استقلال ب
+2026-05-21 13:53:00.766  INFO      mansht — ✅ Telegram sent (worker) | id=1045 | رئيس الدولة ونائباه يهنئون رئيس الجبل الأسود بذكرى استقلال ب
+2026-05-21 13:53:01.879  INFO      services.social_dispatcher — ✅ Instagram sent | id=1045
+2026-05-21 13:53:03.203  INFO      services.social_dispatcher — ✅ Twitter sent | id=1045
+2026-05-21 13:53:04.295  INFO      services.social_dispatcher — ✅ Facebook sent | id=1045
+2026-05-21 13:53:04.787  INFO      mansht — ✅ Published | id=1045 tg=sent ig=sent tw=sent fb=sent
+2026-05-21 13:55:52.747  INFO      mansht — 📥 [تكنولوجيا] New: مسابقة الإمارات للروبوتات تفتح باب المشاركة في دورتها الرابعة لطلبة ال | scraped_at=10:55:52.176
+2026-05-21 13:55:53.493  INFO      mansht — 🟢 [تكنولوجيا] Saved | id=1334 | cat=تكنولوجيا | tpl=عام | conf=1.00 | مسابقة الإمارات للروبوتات تفتح باب المشاركة في دورتها الرابع
+2026-05-21 13:55:53.493  INFO      mansht — 🎨 Generating image | category=تكنولوجيا | id=1334
+2026-05-21 13:55:53.753  INFO      DB.cloud_storage — 🖼️  Uploading news_1334.jpg (0.08 MB)
+2026-05-21 13:55:54.528  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1334.jpg "HTTP/2 200 OK"
+2026-05-21 13:55:55.500  INFO      mansht — ⚡ Processed in 2501ms | id=1334 | priority=9
+2026-05-21 13:55:55.502  INFO      mansht — 🚨 HIGH PRIORITY (score=9) — instant dispatch
+2026-05-21 13:55:56.254  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1046 | 'مسابقة الإمارات للروبوتات تفتح باب المشاركة في دورتها الرابعة لطلبة الجامعات'
+2026-05-21 13:55:57.162  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | مسابقة الإمارات للروبوتات تفتح باب المشاركة في دورتها الرابع
+2026-05-21 13:55:57.163  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1046
+2026-05-21 13:55:58.181  INFO      services.social_dispatcher — ✅ Instagram sent | id=1046
+2026-05-21 13:55:59.479  INFO      services.social_dispatcher — ✅ Twitter sent | id=1046
+2026-05-21 13:56:00.092  INFO      services.social_dispatcher — ⏳ Facebook delayed 125s | id=1046
+2026-05-21 13:56:00.339  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1046 | tg=sent ig=sent tw=sent fb=queued:125s
+2026-05-21 13:56:22.672  INFO      mansht — 🛑 Stopped manually
+2026-05-21 13:56:22.757  ERROR     asyncio — Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py:159> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py", line 215, in <module>
+    asyncio.run(main())
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 47, in run
+    _cancel_all_tasks(loop)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 63, in _cancel_all_tasks
+    loop.run_until_complete(
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py", line 205, in main
+    await asyncio.gather(*worker_tasks, *consumer_tasks)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\scraper\extractor.py", line 347, in category_worker
+    update_scraper_health(
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\scraper\extractor.py", line 96, in update_scraper_health
+    db_execute(
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\DB\db.py", line 48, in db_execute
+    cursor.execute(query, params or ())
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\site-packages\psycopg2\extras.py", line 236, in execute
+    return super().execute(query, vars)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\encodings\utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+KeyboardInterrupt
+2026-05-21 15:05:24.200  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-21 15:05:36.748  INFO      mansht — 🚀 Publishing worker started
+2026-05-21 15:05:36.748  INFO      mansht — 🔄 Recalculation worker started
+2026-05-21 15:05:36.748  INFO      mansht — 🧵 Background workers started
+2026-05-21 15:05:36.753  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-21 15:05:36.754  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.754  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.755  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.755  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.756  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.757  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.757  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.757  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.758  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.759  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.759  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.760  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:36.760  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-21 15:05:37.619  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:37.941  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:38.219  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:38.487  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:38.777  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:39.044  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:39.376  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:39.642  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:39.913  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:40.191  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:40.469  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:40.849  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:05:41.112  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 15:41:41.837  INFO      mansht — 📥 [الاقتصاد] New: «الدار» تبيع كامل وحدات «الغدير غاردنز» بقيمة تجاوزت مليار درهم | scraped_at=12:41:40.620
+2026-05-21 15:41:42.661  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1335 | cat=الاقتصاد | tpl=عام | conf=1.00 | «الدار» تبيع كامل وحدات «الغدير غاردنز» بقيمة تجاوزت مليار د
+2026-05-21 15:41:42.682  INFO      mansht — 🎨 Generating image | category=الاقتصاد | id=1335
+2026-05-21 15:41:43.538  INFO      DB.cloud_storage — 🖼️  Uploading news_1335.jpg (0.07 MB)
+2026-05-21 15:41:44.303  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1335.jpg "HTTP/2 200 OK"
+2026-05-21 15:41:44.306  INFO      mansht — ✅ Image ready | id=1335 | article img
+2026-05-21 15:41:45.219  INFO      mansht — ⚡ Processed in 3053ms | id=1335 | priority=9 | image=✅
+2026-05-21 15:41:45.219  INFO      mansht — 🚨 HIGH PRIORITY (score=9) — instant dispatch
+2026-05-21 15:41:45.883  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1047 | '«الدار» تبيع كامل وحدات «الغدير غاردنز» بقيمة تجاوزت مليار درهم'
+2026-05-21 15:41:46.822  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | «الدار» تبيع كامل وحدات «الغدير غاردنز» بقيمة تجاوزت مليار د
+2026-05-21 15:41:46.824  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1047
+2026-05-21 15:41:47.607  INFO      services.social_dispatcher — ✅ Instagram sent | id=1047
+2026-05-21 15:41:48.575  INFO      services.social_dispatcher — ✅ Twitter sent | id=1047
+2026-05-21 15:41:49.523  INFO      services.social_dispatcher — ✅ Facebook sent | id=1047
+2026-05-21 15:41:49.992  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1047 | tg=sent ig=sent tw=sent fb=sent
+2026-05-21 15:44:40.906  INFO      mansht — 📥 [الإمارات] New: حاكم رأس الخيمة يأمر بالإفراج عن 443 نزيلا بمناسبة عيد الأضحى المبارك | scraped_at=12:44:40.079
+2026-05-21 15:44:42.388  INFO      mansht — 🟢 [الإمارات] Saved | id=1336 | cat=سياسة | tpl=سياسة | conf=0.59 | حاكم رأس الخيمة يأمر بالإفراج عن 443 نزيلا بمناسبة عيد الأضح
+2026-05-21 15:44:42.391  INFO      mansht — 🎨 Generating image | category=سياسة | id=1336
+2026-05-21 15:44:42.758  INFO      DB.cloud_storage — 🖼️  Uploading news_1336.jpg (0.16 MB)
+2026-05-21 15:44:43.561  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1336.jpg "HTTP/2 200 OK"
+2026-05-21 15:44:43.564  INFO      mansht — ✅ Image ready | id=1336 | article img
+2026-05-21 15:44:44.533  INFO      mansht — ⚡ Processed in 3119ms | id=1336 | priority=18 | image=✅
+2026-05-21 15:44:44.534  INFO      mansht — 🚨 HIGH PRIORITY (score=18) — instant dispatch
+2026-05-21 15:44:45.299  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1048 | 'حاكم رأس الخيمة يأمر بالإفراج عن 443 نزيلا بمناسبة عيد الأضحى المبارك'
+2026-05-21 15:44:46.153  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | حاكم رأس الخيمة يأمر بالإفراج عن 443 نزيلا بمناسبة عيد الأضح
+2026-05-21 15:44:46.154  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1048
+2026-05-21 15:44:46.902  INFO      services.social_dispatcher — ✅ Instagram sent | id=1048
+2026-05-21 15:44:47.870  INFO      services.social_dispatcher — ✅ Twitter sent | id=1048
+2026-05-21 15:44:48.450  INFO      services.social_dispatcher — ⏳ Facebook delayed 122s | id=1048
+2026-05-21 15:44:48.689  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1048 | tg=sent ig=sent tw=sent fb=queued:122s
+2026-05-21 15:46:50.741  INFO      services.social_dispatcher — ✅ Facebook sent | id=1048
+2026-05-21 15:46:50.984  INFO      services.social_dispatcher — ✅ Delayed facebook sent | id=1048
+2026-05-21 15:47:09.689  INFO      mansht — 📥 [الاقتصاد] New: انطلاق أعمال الجلسة الـ31 لمجلس «آيرينا» لتعزيز أمن الطاقة وتسريع التح | scraped_at=12:47:09.120
+2026-05-21 15:47:10.752  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1337 | cat=الاقتصاد | tpl=عام | conf=1.00 | انطلاق أعمال الجلسة الـ31 لمجلس «آيرينا» لتعزيز أمن الطاقة و
+2026-05-21 15:47:10.756  INFO      mansht — 🎨 Generating image | category=الاقتصاد | id=1337
+2026-05-21 15:47:11.035  INFO      DB.cloud_storage — 🖼️  Uploading news_1337.jpg (0.09 MB)
+2026-05-21 15:47:11.673  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1337.jpg "HTTP/2 200 OK"
+2026-05-21 15:47:11.677  INFO      mansht — ✅ Image ready | id=1337 | article img
+2026-05-21 15:47:12.649  INFO      mansht — ⚡ Processed in 2715ms | id=1337 | priority=0 | image=✅
+2026-05-21 15:47:17.049  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | انطلاق أعمال الجلسة الـ31 لمجلس «آيرينا» لتعزيز أمن الطاقة و
+2026-05-21 15:47:17.049  INFO      mansht — ✅ Telegram sent (worker) | id=1049 | انطلاق أعمال الجلسة الـ31 لمجلس «آيرينا» لتعزيز أمن الطاقة و
+2026-05-21 15:47:17.289  INFO      mansht — ✅ Published | id=1049 tg=sent ig=skipped tw=skipped fb=skipped
+2026-05-21 15:48:13.133  INFO      mansht — 🛑 Stopped manually
+2026-05-21 16:04:28.840  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-21 16:04:33.356  INFO      mansht — 🚀 Publishing worker started
+2026-05-21 16:04:33.357  INFO      mansht — 🔄 Recalculation worker started
+2026-05-21 16:04:33.357  INFO      mansht — 🧵 Background workers started
+2026-05-21 16:04:33.363  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-21 16:04:33.364  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.364  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.366  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.367  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.368  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.369  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.369  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.370  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.371  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.371  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.372  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.373  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.374  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-21 16:04:33.871  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:34.165  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:34.458  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:34.762  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:35.042  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:35.312  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:35.580  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:35.847  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:36.108  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:36.366  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:36.625  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:36.888  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:04:37.148  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-21 16:05:37.326  INFO      mansht — 📥 [الإمارات] New: محمد بن راشد يأمر بالإفراج عن 836 نزيلا بمناسبة عيد الأضحى المبارك | scraped_at=13:05:37.051
+2026-05-21 16:05:38.179  INFO      mansht — 🟢 [الإمارات] Saved | id=1338 | cat=سياسة | tpl=سياسة | conf=0.88 | محمد بن راشد يأمر بالإفراج عن 836 نزيلا بمناسبة عيد الأضحى ا
+2026-05-21 16:05:38.195  INFO      mansht — 🎨 Generating image | category=سياسة | id=1338
+2026-05-21 16:05:38.525  INFO      mansht — ✅ Image downloaded (id=1338) on attempt 1
+2026-05-21 16:05:38.699  INFO      DB.cloud_storage — 🖼️  Uploading news_1338.jpg (0.19 MB)
+2026-05-21 16:05:39.657  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1338.jpg "HTTP/2 200 OK"
+2026-05-21 16:05:39.659  INFO      mansht — ✅ Image ready | id=1338 | article img
+2026-05-21 16:05:40.969  INFO      mansht — ⚡ Processed in 3304ms | id=1338 | priority=19 | image=✅
+2026-05-21 16:05:40.969  INFO      mansht — 🚨 HIGH PRIORITY (score=19) — instant dispatch
+2026-05-21 16:05:41.652  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1050 | 'محمد بن راشد يأمر بالإفراج عن 836 نزيلا بمناسبة عيد الأضحى المبارك'
+2026-05-21 16:05:42.556  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | محمد بن راشد يأمر بالإفراج عن 836 نزيلا بمناسبة عيد الأضحى ا
+2026-05-21 16:05:42.556  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1050
+2026-05-21 16:05:43.387  INFO      services.social_dispatcher — ✅ Instagram sent | id=1050
+2026-05-21 16:05:44.456  INFO      services.social_dispatcher — ✅ Twitter sent | id=1050
+2026-05-21 16:05:45.513  INFO      services.social_dispatcher — ✅ Facebook sent | id=1050
+2026-05-21 16:05:46.002  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1050 | tg=sent ig=sent tw=sent fb=sent
+2026-05-21 16:09:36.546  INFO      mansht — 📥 [الاقتصاد] New: نهيان بن مبارك يؤكد أهمية بناء «اقتصاد الغد» عبر الاستثمار والابتكار و | scraped_at=13:09:35.214
+2026-05-21 16:09:37.957  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1339 | cat=الاقتصاد | tpl=عام | conf=1.00 | نهيان بن مبارك يؤكد أهمية بناء «اقتصاد الغد» عبر الاستثمار و
+2026-05-21 16:09:37.960  INFO      mansht — 🎨 Generating image | category=الاقتصاد | id=1339
+2026-05-21 16:09:38.159  INFO      mansht — ✅ Image downloaded (id=1339) on attempt 1
+2026-05-21 16:09:38.298  INFO      DB.cloud_storage — 🖼️  Uploading news_1339.jpg (0.09 MB)
+2026-05-21 16:09:38.913  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1339.jpg "HTTP/2 200 OK"
+2026-05-21 16:09:38.915  INFO      mansht — ✅ Image ready | id=1339 | article img
+2026-05-21 16:09:39.794  INFO      mansht — ⚡ Processed in 2748ms | id=1339 | priority=20 | image=✅
+2026-05-21 16:09:39.794  INFO      mansht — 🚨 HIGH PRIORITY (score=20) — instant dispatch
+2026-05-21 16:09:40.487  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1051 | 'نهيان بن مبارك يؤكد أهمية بناء «اقتصاد الغد» عبر الاستثمار والابتكار والتعاون ال'
+2026-05-21 16:09:41.231  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | نهيان بن مبارك يؤكد أهمية بناء «اقتصاد الغد» عبر الاستثمار و
+2026-05-21 16:09:41.231  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1051
+2026-05-21 16:09:41.993  INFO      services.social_dispatcher — ✅ Instagram sent | id=1051
+2026-05-21 16:09:43.064  INFO      services.social_dispatcher — ✅ Twitter sent | id=1051
+2026-05-21 16:09:43.545  INFO      services.social_dispatcher — ⏳ Facebook delayed 62s | id=1051
+2026-05-21 16:09:43.790  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1051 | tg=sent ig=sent tw=sent fb=queued:62s
+2026-05-21 16:10:46.741  INFO      services.social_dispatcher — ✅ Facebook sent | id=1051
+2026-05-21 16:10:46.962  INFO      services.social_dispatcher — ✅ Delayed facebook sent | id=1051
+2026-05-21 16:11:06.092  INFO      mansht — 📥 [الإمارات] New: حاكم الشارقة يصدر مرسوما أميريا بشأن فض دور الانعقاد العادي الثالث من  | scraped_at=13:11:05.257
+2026-05-21 16:11:07.416  INFO      mansht — 🟢 [الإمارات] Saved | id=1340 | cat=سياسة | tpl=سياسة | conf=0.73 | حاكم الشارقة يصدر مرسوما أميريا بشأن فض دور الانعقاد العادي 
+2026-05-21 16:11:07.417  INFO      mansht — 🎨 Generating image | category=سياسة | id=1340
+2026-05-21 16:11:07.519  INFO      mansht — ✅ Image downloaded (id=1340) on attempt 1
+2026-05-21 16:11:07.830  INFO      DB.cloud_storage — 🖼️  Uploading news_1340.jpg (0.17 MB)
+2026-05-21 16:11:08.572  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1340.jpg "HTTP/2 200 OK"
+2026-05-21 16:11:08.575  INFO      mansht — ✅ Image ready | id=1340 | article img
+2026-05-21 16:11:09.783  INFO      mansht — ⚡ Processed in 2832ms | id=1340 | priority=10 | image=✅
+2026-05-21 16:11:09.783  INFO      mansht — 🚨 HIGH PRIORITY (score=10) — instant dispatch
+2026-05-21 16:11:10.528  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH START | queue_id=1052 | 'حاكم الشارقة يصدر مرسوما أميريا بشأن فض دور الانعقاد العادي الثالث من الفصل التش'
+2026-05-21 16:11:11.632  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | حاكم الشارقة يصدر مرسوما أميريا بشأن فض دور الانعقاد العادي 
+2026-05-21 16:11:11.633  INFO      services.instant_publisher — 🚨✅ Telegram | queue_id=1052
+2026-05-21 16:11:11.893  INFO      services.social_dispatcher — ⏳ Instagram burst — queued +30s | id=1052
+2026-05-21 16:11:12.702  INFO      services.social_dispatcher — ✅ Twitter sent | id=1052
+2026-05-21 16:11:13.189  INFO      services.social_dispatcher — ⏳ Facebook delayed 274s | id=1052
+2026-05-21 16:11:13.432  INFO      services.instant_publisher — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1052 | tg=sent ig=queued:30s tw=sent fb=queued:274s
+2026-05-21 16:11:43.095  INFO      services.social_dispatcher — ✅ Instagram sent | id=1052
+2026-05-21 16:11:43.313  INFO      services.social_dispatcher — ✅ Delayed instagram sent | id=1052
+2026-05-21 16:14:05.983  INFO      mansht — 📥 [الاقتصاد] New: «مكتب الذكاء الاصطناعي» وماستر كارد يطلقان «لايتهاوس» لتعزيز الابتكار  | scraped_at=13:14:05.176
+2026-05-21 16:14:07.103  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1341 | cat=الاقتصاد | tpl=عام | conf=1.00 | «مكتب الذكاء الاصطناعي» وماستر كارد يطلقان «لايتهاوس» لتعزيز
+2026-05-21 16:14:07.107  INFO      mansht — 🎨 Generating image | category=الاقتصاد | id=1341
+2026-05-21 16:14:07.301  INFO      mansht — ✅ Image downloaded (id=1341) on attempt 1
+2026-05-21 16:14:07.413  INFO      DB.cloud_storage — 🖼️  Uploading news_1341.jpg (0.09 MB)
+2026-05-21 16:14:08.013  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1341.jpg "HTTP/2 200 OK"
+2026-05-21 16:14:08.016  INFO      mansht — ✅ Image ready | id=1341 | article img
+2026-05-21 16:14:08.977  INFO      mansht — ⚡ Processed in 2433ms | id=1341 | priority=0 | image=✅
+2026-05-21 16:14:10.681  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | «مكتب الذكاء الاصطناعي» وماستر كارد يطلقان «لايتهاوس» لتعزيز
+2026-05-21 16:14:10.681  INFO      mansht — ✅ Telegram sent (worker) | id=1053 | «مكتب الذكاء الاصطناعي» وماستر كارد يطلقان «لايتهاوس» لتعزيز
+2026-05-21 16:14:10.902  INFO      mansht — ✅ Published | id=1053 tg=sent ig=skipped tw=skipped fb=skipped
+2026-05-21 16:15:37.112  INFO      mansht — 📥 [متنوع] New: شراكة بين «إقامة دبي» وأكاديمية دبي للإعلام لتعزيز التكامل الإعلامي وا | scraped_at=13:15:36.902
+2026-05-21 16:15:37.798  INFO      mansht — 🟢 [متنوع] Saved | id=1342 | cat=متنوع | tpl=عام | conf=1.00 | شراكة بين «إقامة دبي» وأكاديمية دبي للإعلام لتعزيز التكامل ا
+2026-05-21 16:15:37.802  INFO      mansht — 🎨 Generating image | category=متنوع | id=1342
+2026-05-21 16:15:38.291  INFO      mansht — ✅ Image downloaded (id=1342) on attempt 1
+2026-05-21 16:15:38.409  INFO      DB.cloud_storage — 🖼️  Uploading news_1342.jpg (0.09 MB)
+2026-05-21 16:15:38.941  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1342.jpg "HTTP/2 200 OK"
+2026-05-21 16:15:38.944  INFO      mansht — ✅ Image ready | id=1342 | article img
+2026-05-21 16:15:40.013  INFO      mansht — ⚡ Processed in 2665ms | id=1342 | priority=0 | image=✅
+2026-05-21 16:15:40.462  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | شراكة بين «إقامة دبي» وأكاديمية دبي للإعلام لتعزيز التكامل ا
+2026-05-21 16:15:40.462  INFO      mansht — ✅ Telegram sent (worker) | id=1054 | شراكة بين «إقامة دبي» وأكاديمية دبي للإعلام لتعزيز التكامل ا
+2026-05-21 16:15:40.702  INFO      mansht — ✅ Published | id=1054 tg=sent ig=skipped tw=skipped fb=skipped
+2026-05-21 16:15:47.928  INFO      services.social_dispatcher — ✅ Facebook sent | id=1052
+2026-05-21 16:15:48.170  INFO      services.social_dispatcher — ✅ Delayed facebook sent | id=1052
+2026-05-22 00:02:36.005  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-22 00:02:42.983  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-22 00:02:50.184  INFO      mansht — 🚀 Publishing worker started
+2026-05-22 00:02:50.185  INFO      mansht — 🔄 Recalculation worker started
+2026-05-22 00:02:50.185  INFO      mansht — 🧵 Background workers started
+2026-05-22 00:02:50.189  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-22 00:02:50.189  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.190  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.190  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.191  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.191  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.191  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.192  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.192  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.193  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.193  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.193  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.194  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:50.194  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-22 00:02:51.135  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:51.396  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:51.653  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:51.908  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:52.167  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:52.440  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:52.800  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:53.057  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:53.320  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:53.575  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:53.834  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:54.226  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:02:54.535  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 00:04:24.024  INFO      mansht — 📥 [رياضة] New: "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لألعاب المضر | scraped_at=21:04:23.145
+2026-05-22 00:04:25.261  INFO      mansht — 🟢 [رياضة] Saved | id=1343 | cat=رياضة | tpl=رياضة | conf=1.00 | "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لأ
+2026-05-22 00:04:25.262  INFO      mansht — 🏷️  Priority | score=11 | 🔴 INSTAGRAM | matched=['الإمارات'=11, 'أبوظبي'=5] | "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لألعاب المضر
+2026-05-22 00:04:25.263  INFO      mansht —    ↳ Reason: Matched 'الإمارات' (Tier 3, score=11) → Instagram-eligible
+2026-05-22 00:04:25.280  INFO      mansht — 🎨 Generating image | id=1343 | category='رياضة' | image_url=set
+2026-05-22 00:04:26.488  INFO      mansht — ✅ Image downloaded (id=1343) attempt 1/5 | size=(1600, 900)
+2026-05-22 00:04:26.754  INFO      DB.cloud_storage — 🖼️  Uploading news_1343.jpg (0.15 MB)
+2026-05-22 00:04:27.750  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1343.jpg "HTTP/2 200 OK"
+2026-05-22 00:04:27.752  INFO      mansht — ✅ Image ready | id=1343 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1343.jpg
+2026-05-22 00:04:28.826  INFO      mansht — ⚡ Processed in 4175ms | id=1343 | priority=11 | image=✅
+2026-05-22 00:04:28.827  INFO      mansht — 🚨 HIGH PRIORITY (score=11) — instant dispatch
+2026-05-22 00:04:29.316  INFO      mansht — 📤 PublishPipeline.publish | article_id=1343 | score=11 | HIGH→Instagram | "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لألعاب المضرب
+2026-05-22 00:04:29.629  WARNING   mansht — 🚨 INSTANT PUBLISH SKIPPED — row already claimed | queue_id=1055 | '"الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لألعاب المضرب'
+2026-05-22 00:04:30.477  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لأ
+2026-05-22 00:04:32.303  INFO      mansht — ✅ Instagram sent | article_id=1343
+2026-05-22 00:04:32.305  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 21:04:32 UTC]  article_id=1343
+║  Title    : "الإمارات لرعاية المواهب" تعقد شراكة إستراتيجية مع أبوظبي لأ
+║  Priority : HIGH (score=11)
+║  ✅ instagram : sent
+║  ⏭  facebook  : skipped:high_priority_policy
+║  ⏭  twitter   : skipped:high_priority_policy
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 00:04:32.534  INFO      mansht — ✅ Worker published | id=1055 tg=sent ig=sent tw=skipped:high_priority_policy fb=skipped:high_priority_policy
+2026-05-22 00:21:54.090  INFO      mansht — 📥 [رياضة] New: "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشاركة واسعة | scraped_at=21:21:53.829
+2026-05-22 00:21:54.797  INFO      mansht — 🟢 [رياضة] Saved | id=1344 | cat=رياضة | tpl=رياضة | conf=1.00 | "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشا
+2026-05-22 00:21:54.799  INFO      mansht — 🏷️  Priority | score=11 | 🔴 INSTAGRAM | matched=['الإمارات'=11, 'أبوظبي'=5] | "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشاركة واسعة
+2026-05-22 00:21:54.800  INFO      mansht —    ↳ Reason: Matched 'الإمارات' (Tier 3, score=11) → Instagram-eligible
+2026-05-22 00:21:54.800  INFO      mansht — 🎨 Generating image | id=1344 | category='رياضة' | image_url=set
+2026-05-22 00:21:55.923  INFO      mansht — ✅ Image downloaded (id=1344) attempt 1/5 | size=(1051, 591)
+2026-05-22 00:21:56.180  INFO      DB.cloud_storage — 🖼️  Uploading news_1344.jpg (0.22 MB)
+2026-05-22 00:21:57.300  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1344.jpg "HTTP/2 200 OK"
+2026-05-22 00:21:57.302  INFO      mansht — ✅ Image ready | id=1344 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1344.jpg
+2026-05-22 00:21:58.194  INFO      mansht — ⚡ Processed in 3875ms | id=1344 | priority=11 | image=✅
+2026-05-22 00:21:58.195  INFO      mansht — 🚨 HIGH PRIORITY (score=11) — instant dispatch
+2026-05-22 00:21:58.902  INFO      mansht — 🚨 INSTANT PUBLISH START | queue_id=1056 | '"ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشاركة واسعة'
+2026-05-22 00:21:58.902  INFO      mansht — 📤 PublishPipeline.publish | article_id=1344 | score=11 | HIGH→Instagram | "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشاركة واسعة
+2026-05-22 00:21:59.738  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشا
+2026-05-22 00:22:01.212  INFO      mansht — ✅ Instagram sent | article_id=1344
+2026-05-22 00:22:01.214  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 21:22:01 UTC]  article_id=1344
+║  Title    : "ضمان" تنظم فعالية "فخورين بالإمارات" للدراجات الهوائية بمشا
+║  Priority : HIGH (score=11)
+║  ✅ instagram : sent
+║  ⏭  facebook  : skipped:high_priority_policy
+║  ⏭  twitter   : skipped:high_priority_policy
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 00:22:01.436  INFO      mansht — 🚨 INSTANT PUBLISH COMPLETE | queue_id=1056 | tg=sent ig=sent tw=skipped:high_priority_policy fb=skipped:high_priority_policy
+2026-05-22 00:37:23.089  INFO      mansht — 📥 [رياضة] New: الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والجزيرة في نه | scraped_at=21:37:22.535
+2026-05-22 00:37:23.859  INFO      mansht — 🟢 [رياضة] Saved | id=1345 | cat=رياضة | tpl=رياضة | conf=1.00 | الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والج
+2026-05-22 00:37:23.860  INFO      mansht — 🏷️  Priority | score=20 | 🔴 INSTAGRAM | matched=['رئيس الدولة'=20, 'محمد بن زايد'=20, 'الجزيرة'=5, 'العين'=5] | الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والجزيرة في نه
+2026-05-22 00:37:23.861  INFO      mansht —    ↳ Reason: Matched 'رئيس الدولة' (Tier 1, score=20) → Instagram-eligible
+2026-05-22 00:37:23.862  INFO      mansht — 🎨 Generating image | id=1345 | category='رياضة' | image_url=set
+2026-05-22 00:37:24.614  INFO      mansht — ✅ Image downloaded (id=1345) attempt 1/5 | size=(1121, 630)
+2026-05-22 00:37:24.745  INFO      DB.cloud_storage — 🖼️  Uploading news_1345.jpg (0.16 MB)
+2026-05-22 00:37:25.670  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1345.jpg "HTTP/2 200 OK"
+2026-05-22 00:37:25.673  INFO      mansht — ✅ Image ready | id=1345 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1345.jpg
+2026-05-22 00:37:26.657  INFO      mansht — ⚡ Processed in 3318ms | id=1345 | priority=20 | image=✅
+2026-05-22 00:37:26.658  INFO      mansht — 🚨 HIGH PRIORITY (score=20) — instant dispatch
+2026-05-22 00:37:26.700  INFO      mansht — 📤 PublishPipeline.publish | article_id=1345 | score=20 | HIGH→Instagram | الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والجزيرة في نهائي كأس رئ
+2026-05-22 00:37:27.385  WARNING   mansht — 🚨 INSTANT PUBLISH SKIPPED — row already claimed | queue_id=1057 | 'الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والجزيرة في نهائي كأس رئ'
+2026-05-22 00:37:27.475  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والج
+2026-05-22 00:37:29.129  INFO      mansht — ✅ Instagram sent | article_id=1345
+2026-05-22 00:37:29.131  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 21:37:29 UTC]  article_id=1345
+║  Title    : الاجتماع الفني يستعرض الترتيبات التنظيمية لمباراة العين والج
+║  Priority : HIGH (score=20)
+║  ✅ instagram : sent
+║  ⏭  facebook  : skipped:high_priority_policy
+║  ⏭  twitter   : skipped:high_priority_policy
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 00:37:29.371  INFO      mansht — ✅ Worker published | id=1057 tg=sent ig=sent tw=skipped:high_priority_policy fb=skipped:high_priority_policy
+2026-05-22 00:52:24.709  INFO      mansht — 📥 [تكنولوجيا] New: نادي الفجيرة العلمي يطلق لقاءات مجتمعية للتعريف بمبادرات 2026 وبرامج ا | scraped_at=21:52:23.333
+2026-05-22 00:52:25.654  INFO      mansht — 🟢 [تكنولوجيا] Saved | id=1346 | cat=تكنولوجيا | tpl=عام | conf=1.00 | نادي الفجيرة العلمي يطلق لقاءات مجتمعية للتعريف بمبادرات 202
+2026-05-22 00:52:25.656  INFO      mansht — 🎨 Generating image | id=1346 | category='تكنولوجيا' | image_url=set
+2026-05-22 00:52:26.645  INFO      mansht — ✅ Image downloaded (id=1346) attempt 1/5 | size=(1046, 752)
+2026-05-22 00:52:26.805  INFO      DB.cloud_storage — 🖼️  Uploading news_1346.jpg (0.09 MB)
+2026-05-22 00:52:27.543  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1346.jpg "HTTP/2 200 OK"
+2026-05-22 00:52:27.546  INFO      mansht — ✅ Image ready | id=1346 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1346.jpg
+2026-05-22 00:52:28.454  INFO      mansht — ⚡ Processed in 3268ms | id=1346 | priority=0 | image=✅
+2026-05-22 00:52:28.454  INFO      mansht — 📥 Enqueued for scheduler | id=1346 | score=0
+2026-05-22 00:52:31.634  INFO      mansht — 📤 PublishPipeline.publish | article_id=1346 | score=0 | NORMAL→FB+TW | نادي الفجيرة العلمي يطلق لقاءات مجتمعية للتعريف بمبادرات 2026 وبرامج الموهوبين
+2026-05-22 00:52:32.626  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | نادي الفجيرة العلمي يطلق لقاءات مجتمعية للتعريف بمبادرات 202
+2026-05-22 00:52:34.148  INFO      mansht — ✅ Twitter sent | article_id=1346
+2026-05-22 00:52:35.575  INFO      mansht — ✅ Facebook sent | article_id=1346
+2026-05-22 00:52:35.576  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 21:52:35 UTC]  article_id=1346
+║  Title    : نادي الفجيرة العلمي يطلق لقاءات مجتمعية للتعريف بمبادرات 202
+║  Priority : NORMAL (score=0)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 00:52:35.795  INFO      mansht — ✅ Worker published | id=1058 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 01:11:25.191  INFO      mansht — 📥 [متنوع] New: فرق هيئة الفجيرة للبيئة تكتشف مواقع جديدة لتعشيش السلاحف وتطلق سبعاً م | scraped_at=22:11:23.117
+2026-05-22 01:11:25.893  INFO      mansht — 🟢 [متنوع] Saved | id=1347 | cat=متنوع | tpl=عام | conf=1.00 | فرق هيئة الفجيرة للبيئة تكتشف مواقع جديدة لتعشيش السلاحف وتط
+2026-05-22 01:11:25.909  INFO      mansht — 🎨 Generating image | id=1347 | category='متنوع' | image_url=set
+2026-05-22 01:11:27.258  INFO      mansht — ✅ Image downloaded (id=1347) attempt 1/5 | size=(1600, 1201)
+2026-05-22 01:11:27.415  INFO      DB.cloud_storage — 🖼️  Uploading news_1347.jpg (0.09 MB)
+2026-05-22 01:11:28.321  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1347.jpg "HTTP/2 200 OK"
+2026-05-22 01:11:28.321  INFO      mansht — ✅ Image ready | id=1347 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1347.jpg
+2026-05-22 01:11:29.503  INFO      mansht — ⚡ Processed in 4094ms | id=1347 | priority=0 | image=✅
+2026-05-22 01:11:29.503  INFO      mansht — 📥 Enqueued for scheduler | id=1347 | score=0
+2026-05-22 01:11:29.918  INFO      mansht — 📤 PublishPipeline.publish | article_id=1347 | score=0 | NORMAL→FB+TW | فرق هيئة الفجيرة للبيئة تكتشف مواقع جديدة لتعشيش السلاحف وتطلق سبعاً مهددة بالان
+2026-05-22 01:11:30.771  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | فرق هيئة الفجيرة للبيئة تكتشف مواقع جديدة لتعشيش السلاحف وتط
+2026-05-22 01:11:32.366  INFO      mansht — ✅ Twitter sent | article_id=1347
+2026-05-22 01:11:33.813  INFO      mansht — ✅ Facebook sent | article_id=1347
+2026-05-22 01:11:33.813  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 22:11:33 UTC]  article_id=1347
+║  Title    : فرق هيئة الفجيرة للبيئة تكتشف مواقع جديدة لتعشيش السلاحف وتط
+║  Priority : NORMAL (score=0)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 01:11:34.035  INFO      mansht — ✅ Worker published | id=1059 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 01:35:18.521  INFO      mansht — 📥 [الاقتصاد] New: "العالمية القابضة" تنفّذ صفقة بقيمة 110 مليون درهم باستخدام العملة الر | scraped_at=22:35:18.326
+2026-05-22 01:35:19.202  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1348 | cat=الاقتصاد | tpl=عام | conf=1.00 | "العالمية القابضة" تنفّذ صفقة بقيمة 110 مليون درهم باستخدام 
+2026-05-22 01:35:19.202  INFO      mansht — 🎨 Generating image | id=1348 | category='الاقتصاد' | image_url=set
+2026-05-22 01:35:19.987  INFO      mansht — ✅ Image downloaded (id=1348) attempt 1/5 | size=(1600, 1066)
+2026-05-22 01:35:20.146  INFO      DB.cloud_storage — 🖼️  Uploading news_1348.jpg (0.10 MB)
+2026-05-22 01:35:20.927  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1348.jpg "HTTP/2 200 OK"
+2026-05-22 01:35:20.930  INFO      mansht — ✅ Image ready | id=1348 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1348.jpg
+2026-05-22 01:35:21.832  INFO      mansht — ⚡ Processed in 3079ms | id=1348 | priority=0 | image=✅
+2026-05-22 01:35:21.832  INFO      mansht — 📥 Enqueued for scheduler | id=1348 | score=0
+2026-05-22 01:35:25.067  INFO      mansht — 📤 PublishPipeline.publish | article_id=1348 | score=0 | NORMAL→FB+TW | "العالمية القابضة" تنفّذ صفقة بقيمة 110 مليون درهم باستخدام العملة الرقمية المست
+2026-05-22 01:35:26.088  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | "العالمية القابضة" تنفّذ صفقة بقيمة 110 مليون درهم باستخدام 
+2026-05-22 01:35:27.570  INFO      mansht — ✅ Twitter sent | article_id=1348
+2026-05-22 01:35:28.947  INFO      mansht — ✅ Facebook sent | article_id=1348
+2026-05-22 01:35:28.947  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 22:35:28 UTC]  article_id=1348
+║  Title    : "العالمية القابضة" تنفّذ صفقة بقيمة 110 مليون درهم باستخدام 
+║  Priority : NORMAL (score=0)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 01:35:29.188  INFO      mansht — ✅ Worker published | id=1060 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 01:50:46.932  INFO      mansht — 📥 [الإمارات] New: وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن المجتمع ف | scraped_at=22:50:46.667
+2026-05-22 01:50:47.662  INFO      mansht — 🟢 [الإمارات] Saved | id=1349 | cat=سياسة | tpl=سياسة | conf=0.53 | وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن
+2026-05-22 01:50:47.665  INFO      mansht — 🏷️  Priority | score=8 | 🔵 FB+TW | matched=['شرطة أبوظبي'=8, 'أبوظبي'=5] | وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن المجتمع ف
+2026-05-22 01:50:47.666  INFO      mansht — 🎨 Generating image | id=1349 | category='سياسة' | image_url=set
+2026-05-22 01:50:48.416  INFO      mansht — ✅ Image downloaded (id=1349) attempt 1/5 | size=(1025, 576)
+2026-05-22 01:50:48.608  INFO      DB.cloud_storage — 🖼️  Uploading news_1349.jpg (0.20 MB)
+2026-05-22 01:50:49.593  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1349.jpg "HTTP/2 200 OK"
+2026-05-22 01:50:49.595  INFO      mansht — ✅ Image ready | id=1349 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1349.jpg
+2026-05-22 01:50:50.456  INFO      mansht — 📤 PublishPipeline.publish | article_id=1349 | score=8 | NORMAL→FB+TW | وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن المجتمع في آيسنار 2
+2026-05-22 01:50:50.498  INFO      mansht — ⚡ Processed in 3335ms | id=1349 | priority=8 | image=✅
+2026-05-22 01:50:50.503  INFO      mansht — 📥 Enqueued for scheduler | id=1349 | score=8
+2026-05-22 01:50:51.631  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن
+2026-05-22 01:50:53.200  INFO      mansht — ✅ Twitter sent | article_id=1349
+2026-05-22 01:50:54.617  INFO      mansht — ✅ Facebook sent | article_id=1349
+2026-05-22 01:50:54.618  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 22:50:54 UTC]  article_id=1349
+║  Title    : وزارة الداخلية تستعرض مشاريع وابتكارات أمنية ذكية لتعزيز أمن
+║  Priority : NORMAL (score=8)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 01:50:54.845  INFO      mansht — ✅ Worker published | id=1061 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 01:51:16.426  INFO      mansht — 🛑 Stopped manually
+2026-05-22 01:51:16.519  ERROR     asyncio — Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<main() done, defined at c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py:162> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py", line 214, in <module>
+    asyncio.run(main())
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 47, in run
+    _cancel_all_tasks(loop)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 63, in _cancel_all_tasks
+    loop.run_until_complete(
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\app3.py", line 205, in main
+    await asyncio.gather(*worker_tasks, *consumer_tasks)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\scraper\extractor.py", line 347, in category_worker
+    update_scraper_health(
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\scraper\extractor.py", line 96, in update_scraper_health
+    db_execute(
+  File "c:\Users\oalaa\Downloads\last once\Mansht-upgraded\DB\db.py", line 48, in db_execute
+    cursor.execute(query, params or ())
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\site-packages\psycopg2\extras.py", line 236, in execute
+    return super().execute(query, vars)
+  File "C:\Users\oalaa\AppData\Local\Programs\Python\Python39\lib\encodings\utf_8.py", line 15, in decode
+    def decode(input, errors='strict'):
+KeyboardInterrupt
+2026-05-22 02:10:12.341  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-22 02:10:15.543  INFO      mansht — 🚀 Publishing worker started
+2026-05-22 02:10:15.544  INFO      mansht — 🔄 Recalculation worker started
+2026-05-22 02:10:15.544  INFO      mansht — 🧵 Background workers started
+2026-05-22 02:10:15.545  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-22 02:10:15.545  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.545  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.550  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.550  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.550  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.551  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.551  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.552  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.552  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.553  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.553  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.553  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.554  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-22 02:10:15.997  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:16.404  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:16.642  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:16.870  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:17.114  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:17.350  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:17.586  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:17.816  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:18.078  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:18.326  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:18.565  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:18.803  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:10:19.046  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 02:18:48.783  INFO      mansht — 📥 [العالم] New: عقوبات أميركية جديدة تستهدف 9 أشخاص لدعمهم حزب الله وزعزعة استقرار لبن | scraped_at=23:18:48.293
+2026-05-22 02:18:49.727  INFO      mansht — 🟢 [العالم] Saved | id=1350 | cat=سياسة | tpl=سياسة | conf=0.67 | عقوبات أميركية جديدة تستهدف 9 أشخاص لدعمهم حزب الله وزعزعة ا
+2026-05-22 02:18:49.753  INFO      mansht — 🎨 Generating image | id=1350 | category='سياسة' | image_url=set
+2026-05-22 02:18:50.776  INFO      mansht — ✅ Image downloaded (id=1350) attempt 1/5 | size=(800, 450)
+2026-05-22 02:18:50.932  INFO      DB.cloud_storage — 🖼️  Uploading news_1350.jpg (0.30 MB)
+2026-05-22 02:18:52.188  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1350.jpg "HTTP/2 200 OK"
+2026-05-22 02:18:52.192  INFO      mansht — ✅ Image ready | id=1350 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1350.jpg
+2026-05-22 02:18:53.299  INFO      mansht — ⚡ Processed in 4047ms | id=1350 | priority=0 | image=✅
+2026-05-22 02:18:53.300  INFO      mansht — 📥 Enqueued for scheduler | id=1350 | score=0
+2026-05-22 02:18:54.327  INFO      mansht — 📤 PublishPipeline.publish | article_id=1350 | score=0 | NORMAL→FB+TW | عقوبات أميركية جديدة تستهدف 9 أشخاص لدعمهم حزب الله وزعزعة استقرار لبنان
+2026-05-22 02:18:55.262  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | عقوبات أميركية جديدة تستهدف 9 أشخاص لدعمهم حزب الله وزعزعة ا
+2026-05-22 02:18:56.700  INFO      mansht — ✅ Twitter sent | article_id=1350
+2026-05-22 02:18:58.094  INFO      mansht — ✅ Facebook sent | article_id=1350
+2026-05-22 02:18:58.096  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 23:18:58 UTC]  article_id=1350
+║  Title    : عقوبات أميركية جديدة تستهدف 9 أشخاص لدعمهم حزب الله وزعزعة ا
+║  Priority : NORMAL (score=0)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 02:18:58.301  INFO      mansht — ✅ Worker published | id=1062 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 02:41:49.420  INFO      mansht — 📥 [الإمارات] New: "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حماية التنوع  | scraped_at=23:41:48.906
+2026-05-22 02:41:50.511  INFO      mansht — 🟢 [الإمارات] Saved | id=1351 | cat=عام | tpl=عام | conf=0.53 | "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حما
+2026-05-22 02:41:50.513  INFO      mansht — 🏷️  Priority | score=11 | 🔴 INSTAGRAM | matched=['الإمارات'=11, 'اليوم الدولي'=8] | "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حماية التنوع 
+2026-05-22 02:41:50.514  INFO      mansht —    ↳ Reason: Matched 'الإمارات' (Tier 3, score=11) → Instagram-eligible
+2026-05-22 02:41:50.514  INFO      mansht — 🎨 Generating image | id=1351 | category='عام' | image_url=set
+2026-05-22 02:41:51.549  INFO      mansht — ✅ Image downloaded (id=1351) attempt 1/5 | size=(1403, 789)
+2026-05-22 02:41:51.661  INFO      DB.cloud_storage — 🖼️  Uploading news_1351.jpg (0.14 MB)
+2026-05-22 02:41:52.490  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1351.jpg "HTTP/2 200 OK"
+2026-05-22 02:41:52.494  INFO      mansht — ✅ Image ready | id=1351 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1351.jpg
+2026-05-22 02:41:53.393  INFO      mansht — ⚡ Processed in 3748ms | id=1351 | priority=11 | image=✅
+2026-05-22 02:41:53.395  INFO      mansht — 🚨 HIGH PRIORITY (score=11) — instant dispatch
+2026-05-22 02:41:53.991  INFO      mansht — 📤 PublishPipeline.publish | article_id=1351 | score=11 | HIGH→Instagram | "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حماية التنوع البيولوجي
+2026-05-22 02:41:54.102  WARNING   mansht — 🚨 INSTANT PUBLISH SKIPPED — row already claimed | queue_id=1063 | '"العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حماية التنوع البيولوجي'
+2026-05-22 02:41:54.792  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حما
+2026-05-22 02:41:57.468  INFO      mansht — ✅ Instagram sent | article_id=1351
+2026-05-22 02:41:57.475  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-21 23:41:57 UTC]  article_id=1351
+║  Title    : "العمل المحلي والتأثير العالمي".. الإمارات نموذج رائد في حما
+║  Priority : HIGH (score=11)
+║  ✅ instagram : sent
+║  ⏭  facebook  : skipped:high_priority_policy
+║  ⏭  twitter   : skipped:high_priority_policy
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 02:41:57.698  INFO      mansht — ✅ Worker published | id=1063 tg=sent ig=sent tw=skipped:high_priority_policy fb=skipped:high_priority_policy
+2026-05-22 03:29:11.310  INFO      mansht — 🛑 Stopped manually
+2026-05-22 13:58:50.391  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-22 13:58:53.695  INFO      mansht — 🚀 Publishing worker started
+2026-05-22 13:58:53.695  INFO      mansht — 🔄 Recalculation worker started
+2026-05-22 13:58:53.695  INFO      mansht — 🧵 Background workers started
+2026-05-22 13:58:53.700  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-22 13:58:53.700  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.700  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.704  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.704  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.704  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.705  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.706  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.706  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.707  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.707  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.707  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.707  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:53.708  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-22 13:58:54.222  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:54.499  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:54.755  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:55.015  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:55.282  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:55.615  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:56.159  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:56.391  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:56.639  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:56.875  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:57.115  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:57.360  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 13:58:57.606  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-22 14:03:27.171  INFO      mansht — 📥 [الاقتصاد] New: اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية | scraped_at=11:03:26.897
+2026-05-22 14:03:27.872  INFO      mansht — 🟢 [الاقتصاد] Saved | id=1352 | cat=الاقتصاد | tpl=عام | conf=1.00 | اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية
+2026-05-22 14:03:27.874  INFO      mansht — 🏷️  Priority | score=5 | 🔵 FB+TW | matched=['دبي'=5] | اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية
+2026-05-22 14:03:27.904  INFO      mansht — 🎨 Generating image | id=1352 | category='الاقتصاد' | image_url=set
+2026-05-22 14:03:29.069  INFO      mansht — ✅ Image downloaded (id=1352) attempt 1/5 | size=(1024, 682)
+2026-05-22 14:03:29.659  INFO      DB.cloud_storage — 🖼️  Uploading news_1352.jpg (0.07 MB)
+2026-05-22 14:03:30.518  INFO      httpx — HTTP Request: POST https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/generated/news_1352.jpg "HTTP/2 200 OK"
+2026-05-22 14:03:30.520  INFO      mansht — ✅ Image ready | id=1352 | source=article image | url=https://repafiiglsvnqtevlwyy.supabase.co/storage/v1/object/public/generated/news_1352.jpg
+2026-05-22 14:03:31.430  INFO      mansht — ⚡ Processed in 4018ms | id=1352 | priority=5 | image=✅
+2026-05-22 14:03:31.430  INFO      mansht — 📥 Enqueued for scheduler | id=1352 | score=5
+2026-05-22 14:03:33.802  INFO      mansht — 📤 PublishPipeline.publish | article_id=1352 | score=5 | NORMAL→FB+TW | اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية
+2026-05-22 14:03:34.599  INFO      services.priority_telegram_publisher — ✅ Priority TG sent | اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية
+2026-05-22 14:03:36.014  INFO      mansht — ✅ Twitter sent | article_id=1352
+2026-05-22 14:03:37.326  INFO      mansht — ✅ Facebook sent | article_id=1352
+2026-05-22 14:03:37.326  INFO      mansht — ╔════════════════════════════════════════════════════════════════╗
+║  📰 PUBLISHED  [2026-05-22 11:03:37 UTC]  article_id=1352
+║  Title    : اتفاقية شراكة في الرحلات بين "فلاي دبي" والخطوط القبرصية
+║  Priority : NORMAL (score=5)
+║  ⏭  instagram : skipped:normal_priority_policy
+║  ✅ facebook  : sent
+║  ✅ twitter   : sent
+╚════════════════════════════════════════════════════════════════╝
+2026-05-22 14:03:37.552  INFO      mansht — ✅ Worker published | id=1064 tg=sent ig=skipped:normal_priority_policy tw=sent fb=sent
+2026-05-22 14:04:00.379  INFO      mansht — 🛑 Stopped manually
+2026-05-23 02:44:24.445  INFO      mansht — 🔤 Using font: Cairo-Black.ttf
+2026-05-23 02:44:33.462  INFO      mansht — 🚀 Publishing worker started
+2026-05-23 02:44:33.478  INFO      mansht — 🔄 Recalculation worker started
+2026-05-23 02:44:33.478  INFO      mansht — 🧵 Background workers started
+2026-05-23 02:44:33.480  INFO      mansht — 🚀 Real-time scraper started | 13 category workers | 8 article consumers
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [الإمارات] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [السعودية] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [مصر] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [الخليج] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [عربي] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.480  INFO      mansht — 🔍 Warm-up mode: [العالم] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.485  INFO      mansht — 🔍 Warm-up mode: [الاقتصاد] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.485  INFO      mansht — 🔍 Warm-up mode: [رياضة] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.487  INFO      mansht — 🔍 Warm-up mode: [فن] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.487  INFO      mansht — 🔍 Warm-up mode: [ثقافة] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.487  INFO      mansht — 🔍 Warm-up mode: [سيارات] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.488  INFO      mansht — 🔍 Warm-up mode: [تكنولوجيا] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:33.488  INFO      mansht — 🔍 Warm-up mode: [متنوع] — first cycle will snapshot existing URLs only
+2026-05-23 02:44:34.337  INFO      mansht — ✅ Warm-up done: [الخليج] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:34.621  INFO      mansht — ✅ Warm-up done: [عربي] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:34.888  INFO      mansht — ✅ Warm-up done: [السعودية] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:35.151  INFO      mansht — ✅ Warm-up done: [الإمارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:35.411  INFO      mansht — ✅ Warm-up done: [مصر] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:35.667  INFO      mansht — ✅ Warm-up done: [العالم] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:36.040  INFO      mansht — ✅ Warm-up done: [فن] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:36.308  INFO      mansht — ✅ Warm-up done: [الاقتصاد] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:36.563  INFO      mansht — ✅ Warm-up done: [سيارات] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:36.824  INFO      mansht — ✅ Warm-up done: [رياضة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:37.083  INFO      mansht — ✅ Warm-up done: [ثقافة] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:37.340  INFO      mansht — ✅ Warm-up done: [تكنولوجيا] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
+2026-05-23 02:44:37.603  INFO      mansht — ✅ Warm-up done: [متنوع] — 24 existing URLs snapshotted, watching for NEW articles from next cycle...
