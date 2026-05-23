@@ -115,7 +115,7 @@ TEMPLATE_CONFIG = {
     "سياسة": {
         "template":  os.path.join(TEMPLATES, "سياسة.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (10,  845,  1070, 1210),
+        "text_box":  (10,  845,  1070, 1070),
         "align":     "center",
     },
     "فن": {
