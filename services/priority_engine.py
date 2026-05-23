@@ -390,7 +390,7 @@ def log_priority_decision(title: str, content: str = "") -> int:
             f"matched=[{kw_list}] | {title[:70]}"
         )
     else:
-        logger.debug(f"🏷️  Priority | score=0 | no match | {title[:70]}")
+        logger.info(f"🏷️  Priority | score=0 | 🔵 FB+TW | no match | {title[:70]}")
 
     if exp["instagram_eligible"]:
         logger.info(f"   ↳ Reason: {exp['reason']}")
