@@ -1,56 +1,38 @@
 """
 services/social_dispatcher.py — Intelligent multi-platform dispatcher.
 
-═══════════════════════════════════════════════════════════════════════════════
-FIXES APPLIED
-═══════════════════════════════════════════════════════════════════════════════
-
-ISSUE #2 — Same news published twice (one text post + one image post)
-──────────────────────────────────────────────────────────────────────
-ROOT CAUSE — _schedule_delayed thread fired AFTER an immediate send:
-
-  In the original code, when Facebook was rate-limited the dispatcher:
-    1. Called _schedule_delayed(post, "facebook", wait_seconds) → spawned a
-       daemon thread that would publish after sleeping `wait_seconds`.
-    2. The rate window then elapsed BEFORE the thread woke up.
-    3. The publishing_worker's next cycle called _pipeline.publish() for the
-       same article, which also sent to Facebook (since the rate window had
-       cleared by then).
-    4. The delayed thread then also woke up and published → DUPLICATE.
-
-  Evidence in app.log (old social_dispatcher path):
-    "⏳ Facebook delayed 122s | id=1048"
-    "✅ Facebook sent | id=1048"        ← from publishing_worker
-    "✅ Delayed facebook sent | id=1048" ← from the background thread
-
-FIX — Deduplication guard in _schedule_delayed:
-  The delayed thread now calls _is_already_published() from publish_pipeline
-  before sending.  If the article was already published by any other code
-  path during the sleep window, the thread silently exits without sending.
-
-  Additionally, _schedule_delayed now records a PENDING lock in publish_log
-  before spawning the thread.  Any concurrent call that tries to publish the
-  same (article_id, platform) sees the pending entry and backs off.
-
-  The new publish_pipeline's _is_already_published() provides a DB-level
-  fingerprint check (article_id + platform → SHA-256) that is the final
-  hard stop against all duplicate paths, including:
-    • Two concurrent instant_publish calls (race condition)
-    • instant_publish + scheduler overlap
-    • _schedule_delayed + scheduler overlap  ← the primary bug
-    • Make.com retry after a timeout
-    • Process restart during a delayed send
-
-PUBLISHING STRATEGY (unchanged from previous refactor):
-──────────────────────────────────────────────────────
-HIGH PRIORITY (priority_score ≥ PRIORITY_THRESHOLD_INSTAGRAM):
+NEW PUBLISHING STRATEGY (Task 2)
+──────────────────────────────────────────────────────────────────────────────
+HIGH PRIORITY (priority_score >= PRIORITY_THRESHOLD_INSTAGRAM):
   → Instagram ONLY
-  → Facebook: SKIPPED  (policy)
-  → Twitter:  SKIPPED  (policy)
+  → Facebook: SKIPPED  (policy: high-priority news goes to Instagram only)
+  → Twitter:  SKIPPED  (policy: high-priority news goes to Instagram only)
 
-NORMAL PRIORITY:
-  → Facebook + Twitter
+NORMAL PRIORITY (priority_score < PRIORITY_THRESHOLD_INSTAGRAM):
+  → Facebook + Twitter  (existing queue logic)
   → Instagram: SKIPPED
+
+RATIONALE:
+  High-priority breaking news gets maximum visual impact on Instagram.
+  Facebook and Twitter handle the regular news flow.
+  This prevents the same article appearing on all three platforms at once,
+  which reduces audience fatigue and keeps each platform's feed distinct.
+
+BURST PROTECTION:
+  If N high-priority articles arrive within BURST_WINDOW_SECONDS,
+  the 3rd+ articles are staggered automatically to respect rate limits.
+
+RATE LIMITING:
+  All decisions query social_rate_log to respect per-platform cooldowns.
+
+TERMINAL NOTIFICATIONS (Task 3):
+  Every publish decision prints a structured, human-readable summary to
+  the terminal (via logger) showing:
+    - News title
+    - Priority level
+    - Which platforms were published to / skipped / failed
+    - Timestamp
+    - Reason for any skipped platforms
 """
 from __future__ import annotations
 
@@ -87,14 +69,13 @@ from config.settings import (
     FACEBOOK_END_DATE,
 )
 from DB.db import db_execute
-from services.publish_pipeline import _is_already_published, _record_publish_event
 from utils.text_filter import sanitize_text
 
 logger = logging.getLogger(__name__)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Terminal notification helper
+# Terminal notification helper  (Task 3)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def _print_publish_summary(
@@ -103,6 +84,19 @@ def _print_publish_summary(
     results: dict[str, str],
     queue_id,
 ) -> None:
+    """
+    Print a clear, structured publish summary to the terminal.
+
+    Example output:
+    ╔══════════════════════════════════════════════════════════════╗
+    ║  📰 NEWS PUBLISHED  [2026-05-21 14:33:07 UTC]  id=42
+    ║  Title    : حاكم الشارقة يصدر مرسوما أميريا…
+    ║  Priority : HIGH (score=18)
+    ║  ✅ Instagram : sent
+    ║  ⏭  Facebook  : skipped — high-priority policy (Instagram only)
+    ║  ⏭  Twitter   : skipped — high-priority policy (Instagram only)
+    ╚══════════════════════════════════════════════════════════════╝
+    """
     ts    = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     level = "HIGH" if priority_score >= PRIORITY_THRESHOLD_INSTAGRAM else "NORMAL"
 
@@ -112,7 +106,6 @@ def _print_publish_summary(
             "failed":   "❌",
             "skipped":  "⏭ ",
             "deferred": "⏳",
-            "queued":   "⏳",
         }
         icon = next(
             (v for k, v in icons.items() if k in status.lower()),
@@ -120,29 +113,31 @@ def _print_publish_summary(
         )
         return f"║  {icon} {platform:<10}: {status}"
 
-    sep   = "╔" + "═" * 62 + "╗"
-    end   = "╚" + "═" * 62 + "╝"
+    sep = "╔" + "═" * 62 + "╗"
+    end = "╚" + "═" * 62 + "╝"
+
     lines = [
         sep,
         f"║  📰 NEWS PUBLISHED  [{ts}]  id={queue_id}",
         f"║  Title    : {title[:58]}",
         f"║  Priority : {level} (score={priority_score})",
     ]
-    for platform in ("instagram", "facebook", "twitter"):
-        lines.append(_line(platform.capitalize(), results.get(platform, "unknown")))
+    for platform in ("telegram", "instagram", "facebook", "twitter"):
+        status = results.get(platform, "unknown")
+        lines.append(_line(platform.capitalize(), status))
     lines.append(end)
 
+    # FIX: use only logger.info — print() + logger.info() caused duplicate output
     block = "\n".join(lines)
-    print(block, flush=True)
     logger.info(block)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Rate state (DB-backed, in-process burst tracking)
+# Rate state
 # ─────────────────────────────────────────────────────────────────────────────
 
 class _RateState:
-    """Thread-safe in-process rate limiter with DB-backed cooldown checks."""
+    """Thread-safe in-process rate limiter with DB-backed precision."""
 
     def __init__(self, platform: str, min_interval: int, max_per_hour: int):
         self.platform     = platform
@@ -345,12 +340,12 @@ class _FacebookPublisher:
             logger.warning("Facebook publish skipped — no webhook URL")
             return False
         try:
-            # ISSUE #3 FIX: Facebook caption does NOT include category line
-            title   = sanitize_text(post["title"])
-            content = sanitize_text((post.get("content") or "")[:500])
             self._post({
                 "platform":  "facebook",
-                "message":   f"📰 {title}\n\n{content}",
+                "message":   (
+                    f"📰 {sanitize_text(post['title'])}\n\n"
+                    f"{sanitize_text((post.get('content') or '')[:500])}"
+                ),
                 "image_url": post.get("image_url"),
                 "url":       post.get("url"),
             })
@@ -396,7 +391,7 @@ class SocialDispatcher:
         priority_score: Optional[int] = None,
     ) -> dict[str, str]:
         """
-        Immediately dispatch to appropriate platforms based on priority rules.
+        Immediately dispatch to appropriate platforms based on NEW priority rules:
 
         HIGH PRIORITY (score >= PRIORITY_THRESHOLD_INSTAGRAM):
           → Instagram ONLY
@@ -407,6 +402,7 @@ class SocialDispatcher:
           → Facebook + Twitter
           → Instagram: skipped
 
+        priority_score is optional — if not passed it reads from post automatically.
         Returns dict of {platform: status}.
         """
         if priority_score is None:
@@ -433,12 +429,15 @@ class SocialDispatcher:
             else:
                 delay = max(
                     wait,
-                    INSTAGRAM_MIN_INTERVAL_SECONDS * max(1, burst - BURST_MAX_INSTANT + 1),
+                    INSTAGRAM_MIN_INTERVAL_SECONDS * (burst - BURST_MAX_INSTANT + 1),
                 )
                 self._schedule_delayed(post, "instagram", delay)
                 results["instagram"] = f"queued:{delay:.0f}s"
-                logger.info(f"⏳ Instagram burst — queued +{delay:.0f}s | id={qid}")
+                logger.info(
+                    f"⏳ Instagram burst — queued +{delay:.0f}s | id={qid}"
+                )
 
+            # Facebook and Twitter explicitly skipped for high-priority
             results["facebook"] = "skipped — high-priority policy (Instagram only)"
             results["twitter"]  = "skipped — high-priority policy (Instagram only)"
 
@@ -478,41 +477,21 @@ class SocialDispatcher:
                     capped_wait = min(wait, 300)
                     self._schedule_delayed(post, "facebook", capped_wait)
                     results["facebook"] = f"queued:{capped_wait:.0f}s"
-                    logger.info(f"⏳ Facebook delayed {capped_wait:.0f}s | id={qid}")
+                    logger.info(
+                        f"⏳ Facebook delayed {capped_wait:.0f}s | id={qid}"
+                    )
             else:
                 results["facebook"] = "skipped — below facebook threshold"
 
+        # ── Terminal notification ──────────────────────────────────────────
         _print_publish_summary(title, priority_score, results, qid)
+
         return results
 
     def _schedule_delayed(self, post: dict, platform: str, delay: float) -> None:
-        """
-        Spawn a background thread to publish after `delay` seconds.
-
-        ISSUE #2 FIX:
-        Before spawning, write a 'pending' entry to publish_log.
-        When the thread wakes up, it checks _is_already_published().
-        If the article was published by any other code path during the
-        sleep (e.g. the scheduler worker), the thread exits silently.
-        This prevents the "delayed thread + worker" duplicate pattern.
-        """
-        article_id = post.get("article_id") or post.get("id")
-        queue_id   = post.get("id")
-
-        # Register intent in publish_log so concurrent paths see it
-        _record_publish_event(article_id, queue_id, platform, "pending")
-
+        """Spawn a background thread to publish after `delay` seconds."""
         def _send() -> None:
             time.sleep(max(0.0, delay))
-
-            # ISSUE #2 FIX: abort if already published by another code path
-            if _is_already_published(article_id, platform):
-                logger.info(
-                    f"⏭  Delayed {platform} skipped — already published "
-                    f"| article_id={article_id}"
-                )
-                return
-
             state = {
                 "instagram": self._ig_state,
                 "twitter":   self._tw_state,
@@ -526,21 +505,16 @@ class SocialDispatcher:
 
             allowed, wait2 = state.can_send()
             if not allowed:
-                time.sleep(min(wait2, 60))
+                time.sleep(wait2)
 
             if pub.publish(post):
-                state.record_send(article_id, queue_id)
-                _record_publish_event(article_id, queue_id, platform, "sent")
-                logger.info(f"✅ Delayed {platform} sent | id={queue_id}")
+                state.record_send(post.get("article_id"), post.get("id"))
+                logger.info(f"✅ Delayed {platform} sent | id={post.get('id')}")
             else:
-                _record_publish_event(
-                    article_id, queue_id, platform, "failed",
-                    "delayed thread publish failed"
-                )
-                logger.error(f"❌ Delayed {platform} failed | id={queue_id}")
+                logger.error(f"❌ Delayed {platform} failed | id={post.get('id')}")
 
         threading.Thread(
-            target=_send, daemon=True, name=f"delayed-{platform}-{queue_id}"
+            target=_send, daemon=True, name=f"delayed-{platform}"
         ).start()
 
     def process_pending_queue(self) -> int:
@@ -554,7 +528,7 @@ class SocialDispatcher:
             self._pending.clear()
 
         for post in items:
-            results = self.instant_dispatch(post)
+            results = self.instant_dispatch(post)   # reads priority_score from post
             logger.info(f"📤 Queued dispatch | id={post.get('id')} | {results}")
             dispatched += 1
 
