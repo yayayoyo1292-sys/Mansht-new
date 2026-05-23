@@ -109,7 +109,7 @@ TEMPLATE_CONFIG = {
     "رياضة": {
         "template":  os.path.join(TEMPLATES, "رياضة.png"),
         "image_box": (0,   0,    1080, 835),
-        "text_box":  (0,   940,  1060, 1200),
+        "text_box":  (20,   940,  1060, 1200),
         "align":     "center",
     },
     "سياسة": {
