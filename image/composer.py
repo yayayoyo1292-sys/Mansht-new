@@ -253,12 +253,11 @@ def _draw_title(
         x    = x1 + ((box_w - w) // 2)
 
         # Drop shadow
-        draw.text((x + 3, y + 3), line, font=font, fill=(0, 0, 0, 200))    # shadow layer 1 أقوى
-        draw.text((x + 2, y + 2), line, font=font, fill=(0, 0, 0, 180))
+        draw.text((x + 2, y + 2), line, font=font, fill=(0, 0, 0))
         # Main text (with thin stroke for crispness)
         draw.text(
             (x, y), line, font=font,
-            fill=TEXT_COLOR, stroke_width=2, stroke_fill=(0, 0, 0),
+            fill=TEXT_COLOR,stroke_width=1, stroke_fill=TEXT_COLOR
         )
         y += line_height
 
