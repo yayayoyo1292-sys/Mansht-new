@@ -82,28 +82,28 @@ TEMPLATE_CONFIG = {
     "سيارات": {
         "template":  os.path.join(TEMPLATES, "سيارات.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (340, 820,  1070, 1050),
+        "text_box":  (10,  845,  1070, 1210),
         "align":     "center",
     }
     ,
     "ثقافة": {
         "template":  os.path.join(TEMPLATES, "ثقافة.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (340, 820,  1070, 1050),
+        "text_box":  (10,  845,  1070, 1210),
         "align":     "center",
     }
     ,
     "تكنولوجيا": {
         "template":  os.path.join(TEMPLATES, "تكنولوجيا.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (340, 820,  1070, 1050),
+        "text_box":  (10,  845,  1070, 1210),
         "align":     "center",
     }
     ,
     "اقتصاد": {
         "template":  os.path.join(TEMPLATES, "اقتصاد.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (340, 820,  1070, 1050),
+        "text_box":  (10,  845,  1070, 1210),
         "align":     "center",
     },
     "رياضة": {
@@ -115,7 +115,7 @@ TEMPLATE_CONFIG = {
     "سياسة": {
         "template":  os.path.join(TEMPLATES, "سياسة.png"),
         "image_box": (0,   0,    1080, 820),
-        "text_box":  (340, 820,  1070, 1050),
+        "text_box":  (10,  845,  1070, 1210),
         "align":     "center",
     },
     "فن": {
