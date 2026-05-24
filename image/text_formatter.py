@@ -57,12 +57,9 @@ def _protect_names(text: str) -> str:
 def prepare_ar_text(text: str) -> str:
 
     text = _protect_names(text)
-    # استبدل «» بكلمات placeholder مؤقتة عشان arabic_reshaper ميكسرهاش
-    text = text.replace("«", " OPENQ ").replace("»", " CLOSEQ ")
     reshaped = arabic_reshaper.reshape(text)
     result = str(get_display(reshaped))
-    # رجّع «» في اتجاه bidi الصح — بعد get_display الكلمات بتتقلب
-    result = result.replace("QNEPO", "»").replace("QESOLC", "«")
+    return result
     return result
 
 
